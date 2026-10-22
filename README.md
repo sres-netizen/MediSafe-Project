@@ -33,6 +33,7 @@ Existing drug interaction checkers (Drugs.com, Medscape, WebMD and similar) are 
 | 7 | **What-if simulator + safer alternatives** | Remove or swap a medicine and watch the score update live (e.g. 62 → 81). Alternatives come from the same drug class and respect the user's allergies, conditions and pregnancy. |
 | 8 | **Cumulative (stacked) risk detection** | Catches risks that individual pairs miss, such as multiple NSAIDs, blood thinners, sedatives or serotonergic drugs taken together. |
 | 9 | **Mechanism-based (CYP enzyme) prediction** | If drug A blocks or speeds up a liver enzyme that clears drug B, the engine flags a *predicted* interaction even when no pair rule exists, and shows the reasoning chain. |
+| 10 | **One-click demo scenarios** | Five preloaded cases (bleeding triad, pregnancy + allergy, elderly kidney disease, CYP prediction, and rule checks) fill the form instantly for easy demos and testing. |
 
 ## How the Score Works
 
@@ -95,7 +96,7 @@ npm run build
 
 ## Try It Out
 
-Some quick cases to see what MediSafe does:
+Use the **1-Click Demo Scenarios** buttons at the top of the page for instant examples, or try these manually:
 
 1. **Bleeding risk:** add Warfarin + Aspirin + Ibuprofen. You'll see a major interaction and a stacked-risk finding.
 2. **Indian brands:** add "Dolo 650" and "Brufen" and watch them resolve to Paracetamol and Ibuprofen.
@@ -139,11 +140,9 @@ npx cypress open
 
 ## Future Enhancements
 
-- Interaction network graph and body-system load map
 - Daily medication schedule optimizer
 - Symptom-to-medicine side-effect checker
 - Downloadable PDF safety report and "questions for your doctor" generator
-- One-click demo scenarios
 - User accounts and cloud-saved history
 - Integration with a licensed drug database (DrugBank, openFDA)
 - ML-based prediction for interactions not covered by rules
