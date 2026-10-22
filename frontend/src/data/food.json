@@ -1,0 +1,302 @@
+[
+  {
+    "id": "food-001",
+    "item": "alcohol",
+    "drug": "paracetamol",
+    "severity": "major",
+    "mechanism": "Ethanol induces CYP2E1 while depleting hepatic glutathione, shunting paracetamol metabolism toward the toxic metabolite N-acetyl-p-benzoquinone imine (NAPQI), causing severe acute liver failure.",
+    "evidenceLevel": "established",
+    "source": "FDA Hepatotoxicity Warnings & NEJM",
+    "explanations": {
+      "simple": "Drinking alcohol while taking Paracetamol creates toxic stress on your liver and can cause serious liver injury.",
+      "detailed": "Chronic alcohol intake up-regulates CYP2E1 activity and depletes mitochondrial glutathione reserves. Even standard therapeutic doses of Paracetamol (2-4g/day) can trigger fulminant hepatic necrosis in regular drinkers.",
+      "clinician": "High risk of hepatotoxicity. Advise complete alcohol abstinence while taking paracetamol, and restrict paracetamol dose to < 2000mg/day in patients with alcohol use disorder."
+    },
+    "precaution": "Do not consume alcoholic beverages when taking Paracetamol. Never exceed the recommended daily dose."
+  },
+  {
+    "id": "food-002",
+    "item": "alcohol",
+    "drug": "metronidazole",
+    "severity": "major",
+    "mechanism": "Inhibition of hepatic aldehyde dehydrogenase (ALDH) causes toxic accumulation of acetaldehyde, triggering a severe disulfiram-like ethanol reaction.",
+    "evidenceLevel": "established",
+    "source": "British National Formulary & FDA Warning",
+    "explanations": {
+      "simple": "Drinking any alcohol with Metronidazole will make you violently sick with severe vomiting, pounding heartbeat, chest pain, and facial flushing.",
+      "detailed": "Metronidazole blocks the oxidation of acetaldehyde to acetate. Acetaldehyde accumulation causes severe facial erythema, throbbing headache, diaphoresis, projectile vomiting, and tachycardia.",
+      "clinician": "Disulfiram-like reaction. Strictly prohibit ethanol in any form (including alcohol-containing cough syrups or mouthwashes) during therapy and for at least 48 hours post-completion."
+    },
+    "precaution": "Strictly avoid all alcohol (including wine, beer, and cough syrups) while taking Metronidazole and for 48 hours after your last dose."
+  },
+  {
+    "id": "food-003",
+    "item": "alcohol",
+    "drug": "tramadol",
+    "severity": "major",
+    "mechanism": "Synergistic depression of the central nervous system and brainstem respiratory centers, predisposing to fatal respiratory arrest and coma.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning",
+    "explanations": {
+      "simple": "Alcohol and Tramadol together can dangerously slow down or stop your breathing and cause coma.",
+      "detailed": "Additive depressive actions on pontine respiratory pacemakers and GABA/opioid receptor signaling dramatically amplify hypoventilation, hypercapnia, and fatal hypoxia.",
+      "clinician": "Contraindicated. Black box warning. Co-ingestion is a leading cause of accidental prescription opioid overdose deaths."
+    },
+    "precaution": "Never drink alcohol while taking Tramadol. Seek emergency care immediately if breathing becomes shallow or slow."
+  },
+  {
+    "id": "food-004",
+    "item": "alcohol",
+    "drug": "alprazolam",
+    "severity": "major",
+    "mechanism": "Profound synergistic potentiation of central GABA-A receptor chloride channel opening leading to severe sedation, respiratory depression, and blackout.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning",
+    "explanations": {
+      "simple": "Drinking alcohol with Alprazolam produces extreme drowsiness, loss of consciousness, memory blackouts, and can be fatal.",
+      "detailed": "Both ethanol and benzodiazepines bind allosterically to distinct sites on the GABA-A receptor, multiplying inhibitory GABAergic tone and shutting down cortical and brainstem functions.",
+      "clinician": "Absolute contraindication. Extreme risk of coma, aspiration pneumonitis, and respiratory arrest."
+    },
+    "precaution": "Zero alcohol while taking Alprazolam. Do not drive or operate machinery."
+  },
+  {
+    "id": "food-005",
+    "item": "alcohol",
+    "drug": "clonazepam",
+    "severity": "major",
+    "mechanism": "Synergistic central nervous system depression, uncoordinated movement, and severe respiratory compromise.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning",
+    "explanations": {
+      "simple": "Alcohol multiplies the sedative effects of Clonazepam, causing severe confusion, falls, and dangerously slow breathing.",
+      "detailed": "Severe pharmacodynamic depression of respiratory centers and motor coordination. Profoundly amplifies alcohol intoxication.",
+      "clinician": "Contraindicated. Warn patients against any concurrent alcohol consumption."
+    },
+    "precaution": "Do not drink alcohol while taking Clonazepam."
+  },
+  {
+    "id": "food-006",
+    "item": "alcohol",
+    "drug": "metformin",
+    "severity": "major",
+    "mechanism": "Ethanol metabolism increases the hepatic NADH/NAD+ ratio, inhibiting lactate gluconeogenesis and provoking acute lactic acidosis.",
+    "evidenceLevel": "established",
+    "source": "ADA Guidelines & Diabetes Care",
+    "explanations": {
+      "simple": "Drinking alcohol with Metformin can trigger a rare, life-threatening buildup of lactic acid in your blood called lactic acidosis.",
+      "detailed": "Ethanol oxidation by alcohol dehydrogenase consumes NAD+, driving pyruvate conversion into lactate. When combined with Metformin's inhibition of hepatic gluconeogenesis, severe lactic acidosis ensues.",
+      "clinician": "High risk of fatal lactic acidosis, particularly with binge drinking or chronic heavy alcohol consumption. Advise strict moderation or avoidance."
+    },
+    "precaution": "Avoid binge drinking or heavy alcohol intake while taking Metformin. Report severe muscle pain, nausea, and rapid breathing."
+  },
+  {
+    "id": "food-007",
+    "item": "grapefruit",
+    "drug": "atorvastatin",
+    "severity": "major",
+    "mechanism": "Furanocoumarins in grapefruit juice irreversibly inhibit intestinal CYP3A4 enzymes, increasing systemic Atorvastatin blood levels up to 300%.",
+    "evidenceLevel": "established",
+    "source": "FDA Consumer Updates & Clinical Pharmacology & Therapeutics",
+    "explanations": {
+      "simple": "Grapefruit juice blocks your body from breaking down Atorvastatin, causing dangerously high drug levels that damage muscles and kidneys.",
+      "detailed": "Furanocoumarins (bergamottin, 6',7'-dihydroxybergamottin) cause suicide inhibition of intestinal mucosal CYP3A4, dramatically increasing oral bioavailability and AUC of Atorvastatin, leading to severe rhabdomyolysis.",
+      "clinician": "Major interaction. A single glass of grapefruit juice can impair CYP3A4 for 24-72 hours. Advise complete avoidance of grapefruit products or switch to Rosuvastatin (not metabolized by CYP3A4)."
+    },
+    "precaution": "Do not eat grapefruit or drink grapefruit juice while taking Atorvastatin. If you love grapefruit, ask your doctor about switching to Rosuvastatin."
+  },
+  {
+    "id": "food-008",
+    "item": "grapefruit",
+    "drug": "amlodipine",
+    "severity": "moderate",
+    "mechanism": "Inhibition of intestinal CYP3A4 increases Amlodipine bioavailability, resulting in excessive vasodilation and hypotension.",
+    "evidenceLevel": "established",
+    "source": "American Journal of Medicine",
+    "explanations": {
+      "simple": "Grapefruit juice can make Amlodipine stronger, causing your blood pressure to drop too low, along with headaches and ankle swelling.",
+      "detailed": "Intestinal CYP3A4 inhibition elevates amlodipine plasma levels, exacerbating systemic arteriolar vasodilation, reflex tachycardia, dizziness, and peripheral edema.",
+      "clinician": "Advise avoiding grapefruit juice or separating by at least 4 hours. Monitor blood pressure for symptomatic orthostatic hypotension."
+    },
+    "precaution": "Avoid consuming large quantities of grapefruit juice while on Amlodipine. Stand up slowly to prevent dizziness."
+  },
+  {
+    "id": "food-009",
+    "item": "milk",
+    "drug": "ciprofloxacin",
+    "severity": "major",
+    "mechanism": "Divalent calcium ions in milk form insoluble chelation complexes with Ciprofloxacin, reducing oral absorption by up to 60-70%.",
+    "evidenceLevel": "established",
+    "source": "Antimicrobial Agents and Chemotherapy & FDA Label",
+    "explanations": {
+      "simple": "Calcium in milk and yogurt binds directly to Ciprofloxacin in your stomach, preventing your body from absorbing the antibiotic and causing treatment failure.",
+      "detailed": "Multivalent cations (Ca2+, Mg2+) chelate the 4-keto and 3-carboxyl groups of fluoroquinolones, forming non-absorbable neutral precipitates in the intestinal lumen and drastically blunting serum Cmax.",
+      "clinician": "Clinically significant therapeutic failure risk. Administer ciprofloxacin at least 2 hours before or 6 hours after dairy products or calcium-fortified beverages."
+    },
+    "precaution": "Do not take Ciprofloxacin with milk, yogurt, or cheese. Wait at least 2 hours after taking Ciprofloxacin before consuming dairy."
+  },
+  {
+    "id": "food-010",
+    "item": "milk",
+    "drug": "doxycycline",
+    "severity": "major",
+    "mechanism": "Calcium in dairy chelates Doxycycline in the gastrointestinal tract, significantly decreasing antibiotic bioavailability.",
+    "evidenceLevel": "established",
+    "source": "British Journal of Clinical Pharmacology",
+    "explanations": {
+      "simple": "Milk, cheese, and dairy products bind to Doxycycline, stopping it from curing your infection.",
+      "detailed": "Tetracyclines chelate divalent calcium ions to form unabsorbed insoluble complexes, diminishing serum antibiotic concentrations by 30-50%.",
+      "clinician": "Instruct patient to separate ingestion of dairy products, milk, and ice cream by at least 2 hours from doxycycline dosing."
+    },
+    "precaution": "Space dairy foods, milk, and cheese at least 2 hours away from your Doxycycline dose."
+  },
+  {
+    "id": "food-011",
+    "item": "vitamin_k_foods",
+    "drug": "warfarin",
+    "severity": "major",
+    "mechanism": "Exogenous vitamin K (phylloquinone) directly bypasses Warfarin's inhibition of VKORC1, restoring clotting factor synthesis and dropping the INR.",
+    "evidenceLevel": "established",
+    "source": "Chest Guidelines on Antithrombotic Therapy",
+    "explanations": {
+      "simple": "Eating large amounts of dark leafy greens (spinach, kale, broccoli) counteracts Warfarin, making your blood thicker and increasing your risk of blood clots.",
+      "detailed": "Dietary phylloquinone acts as a direct cofactor for gamma-glutamyl carboxylase, overcoming Warfarin's enzymatic inhibition and resulting in sudden drops in PT/INR below the therapeutic window.",
+      "clinician": "Patients do NOT need to eliminate green vegetables, but must maintain strict day-to-day consistency in intake. Sudden dietary surges precipitate thromboembolic events."
+    },
+    "precaution": "Keep your intake of green leafy vegetables (spinach, kale, methi, cabbage) consistent from week to week. Do not suddenly change your diet."
+  },
+  {
+    "id": "food-012",
+    "item": "st_johns_wort",
+    "drug": "sertraline",
+    "severity": "major",
+    "mechanism": "Additive hyper-serotonergic stimulation at central 5-HT receptors precipitates severe Serotonin Syndrome.",
+    "evidenceLevel": "established",
+    "source": "Journal of Clinical Psychopharmacology & WHO Alerts",
+    "explanations": {
+      "simple": "St. John's Wort is an herbal supplement that acts like an antidepressant. Combining it with Sertraline can cause dangerous Serotonin Syndrome with fever, confusion, and shivering.",
+      "detailed": "Both agents inhibit the reuptake of serotonin (5-HT), leading to massive synaptic serotonin accumulation in the brain and spinal cord, triggering hyperthermia, clonus, and autonomic instability.",
+      "clinician": "Contraindicated. Severe risk of Serotonin Toxicity (Hunter Criteria). Discontinue St. John's Wort immediately."
+    },
+    "precaution": "Never take St. John's Wort herbal supplements while taking Sertraline or any antidepressant."
+  },
+  {
+    "id": "food-013",
+    "item": "st_johns_wort",
+    "drug": "escitalopram",
+    "severity": "major",
+    "mechanism": "Dual inhibition of serotonin reuptake drives excessive central 5-HT receptor stimulation.",
+    "evidenceLevel": "established",
+    "source": "Lancet Psychiatry",
+    "explanations": {
+      "simple": "Taking St. John's Wort with Escitalopram overloads your brain with serotonin, which can lead to life-threatening fever and seizures.",
+      "detailed": "Synergistic serotonergic elevation resulting in neuromuscular hyperactivity, autonomic excitation, and altered mental status.",
+      "clinician": "Contraindicated combination. Instruct patient to avoid all over-the-counter herbal mood supplements containing Hypericum perforatum."
+    },
+    "precaution": "Avoid St. John's Wort herbal remedies completely."
+  },
+  {
+    "id": "food-014",
+    "item": "st_johns_wort",
+    "drug": "warfarin",
+    "severity": "major",
+    "mechanism": "Hyperforin in St. John's Wort potently induces hepatic CYP2C9, CYP3A4, and intestinal P-gp, rapidly clearing Warfarin and causing treatment failure.",
+    "evidenceLevel": "established",
+    "source": "Annals of Pharmacotherapy & FDA Warnings",
+    "explanations": {
+      "simple": "St. John's Wort speeds up how fast your liver destroys Warfarin, leading to blood clots, heart attacks, or strokes.",
+      "detailed": "Potent pregnane X receptor (PXR) activation induces CYP enzymes, accelerating Warfarin metabolism and causing therapeutic failure (subtherapeutic INR).",
+      "clinician": "Avoid combination. Discontinuation of St. John's Wort after stabilization on Warfarin can conversely lead to massive INR spikes and fatal bleeding."
+    },
+    "precaution": "Do not take St. John's Wort if you are on Warfarin."
+  },
+  {
+    "id": "food-015",
+    "item": "calcium_supplements",
+    "drug": "levothyroxine",
+    "severity": "major",
+    "mechanism": "Calcium carbonate binds Levothyroxine in the stomach and duodenum, forming an insoluble, non-absorbable chelate complex.",
+    "evidenceLevel": "established",
+    "source": "JAMA & Endocrine Society Guidelines",
+    "explanations": {
+      "simple": "Calcium pills (like Shelcal) stick to Levothyroxine in your stomach, blocking your body from absorbing your thyroid medication.",
+      "detailed": "Adsorption and insoluble complexation in the upper GI tract decrease Levothyroxine bioavailability by 30-50%, causing elevated serum TSH and recurrent hypothyroid symptoms.",
+      "clinician": "Major absorption interaction. Instruct the patient to separate Levothyroxine and Calcium supplements by at least 4 hours."
+    },
+    "precaution": "Take Levothyroxine first thing in the morning with plain water. Wait at least 4 hours before taking your Calcium supplement (Shelcal)."
+  },
+  {
+    "id": "food-016",
+    "item": "iron_supplements",
+    "drug": "levothyroxine",
+    "severity": "major",
+    "mechanism": "Ferrous iron ions form an insoluble chelate complex with Levothyroxine sodium, preventing systemic absorption.",
+    "evidenceLevel": "established",
+    "source": "Annals of Internal Medicine",
+    "explanations": {
+      "simple": "Iron tablets bind to your thyroid medicine in your stomach and stop it from getting into your blood.",
+      "detailed": "Ferrous sulfate chelates levothyroxine in an acidic environment, significantly lowering free thyroxine levels and elevating TSH.",
+      "clinician": "Mandate at least a 4-hour dosing separation between oral iron salts and levothyroxine."
+    },
+    "precaution": "Take your Iron pill at least 4 hours after taking your morning Levothyroxine."
+  },
+  {
+    "id": "food-017",
+    "item": "calcium_supplements",
+    "drug": "ciprofloxacin",
+    "severity": "major",
+    "mechanism": "Chealtion between calcium ions and the 4-quinolone nucleus prevents gastrointestinal absorption of Ciprofloxacin.",
+    "evidenceLevel": "established",
+    "source": "Antimicrobial Agents and Chemotherapy",
+    "explanations": {
+      "simple": "Calcium supplements neutralize Ciprofloxacin by sticking to it in your gut, preventing it from fighting your infection.",
+      "detailed": "Forms insoluble multivalent chelates that reduce ciprofloxacin bioavailability by > 50-70%, risking antimicrobial failure.",
+      "clinician": "Administer ciprofloxacin at least 2 hours before or 6 hours after calcium carbonate or calcium citrate supplements."
+    },
+    "precaution": "Do not take Calcium supplements at the same time as Ciprofloxacin. Space them at least 2 hours apart."
+  },
+  {
+    "id": "food-018",
+    "item": "iron_supplements",
+    "drug": "ciprofloxacin",
+    "severity": "major",
+    "mechanism": "Ferrous and ferric iron ions bind tightly to Ciprofloxacin in the stomach, rendering the antibiotic unabsorbable.",
+    "evidenceLevel": "established",
+    "source": "Clinical Pharmacokinetics",
+    "explanations": {
+      "simple": "Iron supplements bind Ciprofloxacin in your digestive tract and block the medicine from entering your bloodstream.",
+      "detailed": "Direct chemical chelation reduces ciprofloxacin absorption by up to 75-80%, rendering standard oral dosing therapeutically ineffective.",
+      "clinician": "Space dosing by at least 2 hours before or 4-6 hours after iron ingestion."
+    },
+    "precaution": "Take Ciprofloxacin at least 2 hours before or 4 hours after your Iron supplement."
+  },
+  {
+    "id": "food-019",
+    "item": "caffeine",
+    "drug": "ciprofloxacin",
+    "severity": "moderate",
+    "mechanism": "Ciprofloxacin competitively inhibits hepatic CYP1A2, the primary enzyme responsible for caffeine clearance, prolonging caffeine half-life up to twofold.",
+    "evidenceLevel": "established",
+    "source": "Clinical Pharmacology & Therapeutics",
+    "explanations": {
+      "simple": "Ciprofloxacin blocks your body from clearing caffeine (from coffee, tea, and energy drinks), making you feel jittery, shaky, and anxious with a racing heart.",
+      "detailed": "Potent CYP1A2 inhibition leads to caffeine accumulation, causing exaggerated central nervous system stimulation, insomnia, fine tremors, and sinus tachycardia.",
+      "clinician": "Counsel patients to cut their daily coffee, tea, and cola intake by at least half while completing a course of ciprofloxacin."
+    },
+    "precaution": "Cut down on coffee, strong tea, and energy drinks while taking Ciprofloxacin to avoid tremors and palpitations."
+  },
+  {
+    "id": "food-020",
+    "item": "potassium_rich_foods",
+    "drug": "spironolactone",
+    "severity": "major",
+    "mechanism": "Excessive exogenous potassium load combined with pharmacological aldosterone receptor blockade precipitates lethal hyperkalemia.",
+    "evidenceLevel": "established",
+    "source": "American Heart Association Heart Failure Guidelines",
+    "explanations": {
+      "simple": "Consuming potassium-rich salt substitutes or excessive bananas while taking Spironolactone can cause blood potassium to surge to dangerous levels.",
+      "detailed": "Spironolactone blocks potassium excretion in the cortical collecting tubule. High intake of potassium chloride salt substitutes can rapidly precipitate fatal cardiac arrest.",
+      "clinician": "High hyperkalemia risk. Specifically warn patients against 'NoSalt' or low-sodium salt substitutes containing potassium chloride."
+    },
+    "precaution": "Do NOT use potassium-based salt substitutes (often labeled as 'low sodium salt') while taking Spironolactone."
+  }
+]

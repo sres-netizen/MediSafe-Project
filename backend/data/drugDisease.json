@@ -1,0 +1,377 @@
+[
+  {
+    "id": "dis-001",
+    "drug": "ibuprofen",
+    "condition": "chronic kidney disease",
+    "severity": "major",
+    "mechanism": "Inhibition of vasodilatory renal prostaglandins (PGE2, PGI2) leads to afferent arteriolar constriction and acute-on-chronic renal decline.",
+    "evidenceLevel": "established",
+    "source": "KDIGO Clinical Practice Guideline for Acute Kidney Injury",
+    "explanations": {
+      "simple": "Ibuprofen reduces blood flow to your kidneys, which can cause sudden and permanent worsening of kidney damage.",
+      "detailed": "Patients with CKD depend heavily on renal prostaglandin synthesis to maintain glomerular filtration. NSAIDs block this protective reflex, triggering acute tubular necrosis and fluid overload.",
+      "clinician": "Contraindicated in moderate-to-severe CKD (eGFR < 45 mL/min/1.73m2). Promotes acute decompensation, hyperkalemia, and sodium retention. Paracetamol is the safe analgesic alternative."
+    },
+    "precaution": "Do not take Ibuprofen if you have kidney disease. Use Paracetamol for pain relief instead."
+  },
+  {
+    "id": "dis-002",
+    "drug": "diclofenac",
+    "condition": "chronic kidney disease",
+    "severity": "major",
+    "mechanism": "NSAID-mediated renal prostaglandin suppression causes renal hypoperfusion and accelerated nephron loss.",
+    "evidenceLevel": "established",
+    "source": "American Journal of Kidney Diseases",
+    "explanations": {
+      "simple": "Diclofenac cuts down blood circulation inside damaged kidneys, risking rapid loss of kidney function.",
+      "detailed": "Compromised kidneys lose renal autoregulatory compensatory mechanisms under COX-1/COX-2 inhibition, predisposing to acute renal failure.",
+      "clinician": "Contraindicated. Accelerated CKD progression and acute azotemia. Substitute paracetamol."
+    },
+    "precaution": "Avoid Diclofenac with kidney disease. Consult your nephrologist for renal-safe pain management."
+  },
+  {
+    "id": "dis-003",
+    "drug": "aspirin",
+    "condition": "chronic kidney disease",
+    "severity": "moderate",
+    "mechanism": "High analgesic doses of Aspirin inhibit renal prostaglandin synthesis, lowering GFR.",
+    "evidenceLevel": "established",
+    "source": "Nephrology Dialysis Transplantation",
+    "explanations": {
+      "simple": "High doses of Aspirin can worsen your kidney function, though baby aspirin for the heart may still be okay under medical supervision.",
+      "detailed": "High-dose aspirin (>325mg) causes renal vasoconstriction and acute GFR reduction. Low-dose cardioprotective aspirin (75-100mg) is generally permissible when indicated.",
+      "clinician": "Avoid full analgesic doses. Low-dose antiplatelet aspirin is acceptable if cardiorenal benefits outweigh bleeding risks."
+    },
+    "precaution": "Do not use Aspirin as a headache or pain pill if you have kidney disease. Check with your doctor regarding low-dose heart aspirin."
+  },
+  {
+    "id": "dis-004",
+    "drug": "ibuprofen",
+    "condition": "peptic ulcer disease",
+    "severity": "major",
+    "mechanism": "Direct topical irritation and systemic COX-1 inhibition strip gastric mucus protection, predisposing to recurrent bleeding and perforation.",
+    "evidenceLevel": "established",
+    "source": "American College of Gastroenterology Ulcer Guidelines",
+    "explanations": {
+      "simple": "Ibuprofen strips your stomach's protective lining, which can cause existing or healed stomach ulcers to reopen and bleed heavily.",
+      "detailed": "Systemic inhibition of gastric mucosal cyclooxygenase-1 depletes cytoprotective prostaglandins E2 and I2, decreasing bicarbonate secretion and mucosal blood flow.",
+      "clinician": "Absolute contraindication in active peptic ulcer disease; strong relative contraindication in past ulcer history. If analgesia is required, use paracetamol or add mandatory PPI co-therapy."
+    },
+    "precaution": "Never take Ibuprofen if you have a history of stomach ulcers. Take Paracetamol instead."
+  },
+  {
+    "id": "dis-005",
+    "drug": "diclofenac",
+    "condition": "peptic ulcer disease",
+    "severity": "major",
+    "mechanism": "Suppression of gastroprotective prostaglandins causing deep mucosal ulcerations and severe GI hemorrhage.",
+    "evidenceLevel": "established",
+    "source": "Gastroenterology Journal",
+    "explanations": {
+      "simple": "Diclofenac irritates the stomach and significantly increases your risk of painful ulcers and internal stomach bleeding.",
+      "detailed": "Dual COX-1/COX-2 inhibition removes the gastric hydrophobic mucosal barrier, accelerating ulcer recurrence and life-threatening upper GI bleeding.",
+      "clinician": "Contraindicated. High ulcerogenic potential. Use paracetamol or topical non-systemic analgesia."
+    },
+    "precaution": "Avoid Diclofenac completely if you have had stomach ulcers."
+  },
+  {
+    "id": "dis-006",
+    "drug": "aspirin",
+    "condition": "peptic ulcer disease",
+    "severity": "major",
+    "mechanism": "Topical epithelial damage coupled with systemic COX-1 inhibition causes gastric erosions and prevents platelet clot stabilization.",
+    "evidenceLevel": "established",
+    "source": "Lancet Gastroenterology",
+    "explanations": {
+      "simple": "Aspirin irritates stomach ulcers and stops blood from clotting properly, making dangerous stomach bleeding very likely.",
+      "detailed": "Aspirin causes direct cellular injury in acidic gastric juice, uncouples mitochondrial respiration, and inhibits mucosal thromboxane, resulting in profuse ulcer hemorrhage.",
+      "clinician": "Contraindicated in active ulceration. If low-dose aspirin is mandatory for secondary cardiac prevention, co-prescribe a potent PPI (Pantoprazole 40mg)."
+    },
+    "precaution": "Do not take Aspirin if you have an active ulcer. If taking it for heart disease, always take it with food and a prescribed stomach protector."
+  },
+  {
+    "id": "dis-007",
+    "drug": "ibuprofen",
+    "condition": "hypertension",
+    "severity": "moderate",
+    "mechanism": "Suppression of vasodilating renal prostaglandins causes sodium and water retention, raising mean arterial pressure by 3-5 mmHg.",
+    "evidenceLevel": "established",
+    "source": "AHA/ACC Hypertension Scientific Statement",
+    "explanations": {
+      "simple": "Ibuprofen makes your body hold onto salt and water, which pushes your blood pressure up and blunts your pressure medications.",
+      "detailed": "Renal prostaglandin inhibition promotes renal tubular sodium reabsorption and increases systemic vascular resistance, destabilizing blood pressure control.",
+      "clinician": "Chronic NSAID therapy elevates systolic BP and counteracts ACE inhibitors, ARBs, and beta-blockers. Recommend paracetamol for chronic analgesia."
+    },
+    "precaution": "Check your blood pressure regularly. Avoid long-term Ibuprofen; use Paracetamol for pain."
+  },
+  {
+    "id": "dis-008",
+    "drug": "diclofenac",
+    "condition": "hypertension",
+    "severity": "moderate",
+    "mechanism": "Renal prostaglandin inhibition leading to fluid retention and elevation of systemic vascular resistance.",
+    "evidenceLevel": "established",
+    "source": "European Heart Journal",
+    "explanations": {
+      "simple": "Diclofenac causes fluid retention that can spike your blood pressure and interfere with your heart medications.",
+      "detailed": "Elevates systemic vascular resistance and attenuates antihypertensive regimens. Linked with increased cardiovascular events in hypertensive cohorts.",
+      "clinician": "Avoid long-term courses. Monitor BP within 1-2 weeks of initiating."
+    },
+    "precaution": "Avoid frequent use of Diclofenac if you have high blood pressure."
+  },
+  {
+    "id": "dis-009",
+    "drug": "metformin",
+    "condition": "severe kidney disease",
+    "severity": "major",
+    "mechanism": "Impaired renal elimination of metformin leads to toxic accumulation and potentially fatal lactic acidosis.",
+    "evidenceLevel": "established",
+    "source": "FDA Drug Safety Communication & ADA Standards of Care",
+    "explanations": {
+      "simple": "When kidneys are severely weakened, Metformin builds up in your blood and can cause a dangerous condition called lactic acidosis.",
+      "detailed": "Metformin is eliminated 90-100% unchanged via renal tubular secretion. In severe renal insufficiency (eGFR < 30 mL/min), accumulation inhibits mitochondrial complex I, driving massive anaerobic glycolysis and lactic acidosis (mortality ~40%).",
+      "clinician": "Contraindicated if eGFR < 30 mL/min/1.73m2. Dose reduce by 50% if eGFR 30-44 mL/min. Monitor renal function every 3-6 months."
+    },
+    "precaution": "Do not take Metformin if your doctor has told you that you have severe kidney impairment. Report rapid breathing, severe muscle cramps, or extreme fatigue immediately."
+  },
+  {
+    "id": "dis-010",
+    "drug": "metformin",
+    "condition": "liver disease",
+    "severity": "major",
+    "mechanism": "Impaired hepatic lactate clearance dramatically increases the risk of lactic acidosis.",
+    "evidenceLevel": "established",
+    "source": "American Association for the Study of Liver Diseases (AASLD)",
+    "explanations": {
+      "simple": "A damaged liver cannot clear lactic acid normally, so taking Metformin can lead to dangerous lactic acid buildup.",
+      "detailed": "Hepatic clearance of circulating lactate via gluconeogenesis is impaired in severe hepatic cirrhosis. Metformin accumulation exacerbates hyperlactatemia.",
+      "clinician": "Avoid in patients with severe hepatic impairment or acute liver failure. Monitor liver transaminases."
+    },
+    "precaution": "Inform your doctor if you have liver conditions or jaundice before taking Metformin."
+  },
+  {
+    "id": "dis-011",
+    "drug": "prednisolone",
+    "condition": "diabetes",
+    "severity": "major",
+    "mechanism": "Stimulates hepatic gluconeogenesis and inhibits peripheral glucose uptake, causing marked hyperglycemia and diabetic ketoacidosis risk.",
+    "evidenceLevel": "established",
+    "source": "Diabetes Care & Endocrine Society Clinical Guidelines",
+    "explanations": {
+      "simple": "Prednisolone causes a steep rise in your blood sugar levels and can make diabetes much harder to manage.",
+      "detailed": "Glucocorticoids induce hepatic enzymes (PEPCK, G6Pase), mobilize amino acid substrates from muscle, and induce profound peripheral insulin resistance, typically elevating postprandial blood glucose.",
+      "clinician": "Expect steroid-induced hyperglycemia. Proactively up-titrate oral hypoglycemic agents or initiate basal-bolus insulin regimens during steroid therapy."
+    },
+    "precaution": "Check blood sugars frequently while on Prednisolone. Contact your doctor if readings stay above 200 mg/dL."
+  },
+  {
+    "id": "dis-012",
+    "drug": "prednisolone",
+    "condition": "osteoporosis",
+    "severity": "major",
+    "mechanism": "Suppresses osteoblast activity, increases osteoclast bone resorption, and impairs intestinal calcium absorption, accelerating bone fractures.",
+    "evidenceLevel": "established",
+    "source": "American College of Rheumatology Glucocorticoid-Induced Osteoporosis Guidelines",
+    "explanations": {
+      "simple": "Prednisolone weakens your bones by slowing down bone rebuilding and increasing bone thinning, raising your fracture risk.",
+      "detailed": "Steroids downregulate osteoprotegerin and stimulate RANKL, leading to rapid trabecular bone loss within the first 3-6 months of therapy. They also inhibit renal and intestinal calcium transport.",
+      "clinician": "Initiate fracture risk assessment (FRAX). Prescribe calcium (1000-1200mg/d), vitamin D (800-2000 IU/d), and consider bisphosphonate prophylaxis for courses > 3 months."
+    },
+    "precaution": "Ensure you take adequate calcium and vitamin D supplements if you must take Prednisolone long-term."
+  },
+  {
+    "id": "dis-013",
+    "drug": "ciprofloxacin",
+    "condition": "myasthenia gravis",
+    "severity": "major",
+    "mechanism": "Neuromuscular blocking activity precipitates life-threatening muscle weakness and acute respiratory failure.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning on Fluoroquinolones & Myasthenia Gravis",
+    "explanations": {
+      "simple": "Ciprofloxacin can severely worsen muscle weakness and cause sudden life-threatening difficulty breathing in people with Myasthenia Gravis.",
+      "detailed": "Fluoroquinolones inhibit pre-synaptic acetylcholine release and post-synaptic acetylcholine receptor sensitivity, provoking myasthenic crisis requiring mechanical ventilation.",
+      "clinician": "Contraindicated. Black box warning. Avoid all fluoroquinolones in myasthenia gravis patients. Choose beta-lactams or macrolides instead."
+    },
+    "precaution": "NEVER take Ciprofloxacin if you have Myasthenia Gravis. Seek immediate emergency medical care if you develop breathing or swallowing difficulty."
+  },
+  {
+    "id": "dis-014",
+    "drug": "ciprofloxacin",
+    "condition": "epilepsy",
+    "severity": "major",
+    "mechanism": "Antagonism of central GABA-A receptors and NMDA receptor activation lowers the seizure threshold.",
+    "evidenceLevel": "established",
+    "source": "Epilepsia Journal",
+    "explanations": {
+      "simple": "Ciprofloxacin irritates brain nerve signals and can trigger epileptic seizures or convulsions.",
+      "detailed": "Fluoroquinolones competitively bind to GABA-A receptors in the brain, inhibiting GABA-mediated hyperpolarization and provoking epileptiform discharges.",
+      "clinician": "Contraindicated or use with extreme caution in patients with a seizure history or structural cerebral pathology. Alternative antimicrobial therapy is strongly advised."
+    },
+    "precaution": "Tell your doctor you have a history of seizures so they can prescribe a non-fluoroquinolone antibiotic."
+  },
+  {
+    "id": "dis-015",
+    "drug": "tramadol",
+    "condition": "epilepsy",
+    "severity": "major",
+    "mechanism": "Direct inhibition of central GABA transmission and enhanced monoaminergic tone substantially lowers the seizure threshold.",
+    "evidenceLevel": "established",
+    "source": "FDA Safety Communication & Journal of Neurology",
+    "explanations": {
+      "simple": "Tramadol can easily trigger seizures in people with epilepsy or a history of convulsions.",
+      "detailed": "Tramadol inhibits GABAergic pathways and stimulates 5-HT/NE mechanisms, significantly provoking generalized tonic-clonic convulsions even at standard therapeutic doses.",
+      "clinician": "Contraindicated in uncontrolled epilepsy; strong caution in any seizure disorder. Substitute with paracetamol or non-epileptogenic analgesics."
+    },
+    "precaution": "Do not take Tramadol if you have a seizure condition. Use Paracetamol for pain relief."
+  },
+  {
+    "id": "dis-016",
+    "drug": "spironolactone",
+    "condition": "severe kidney disease",
+    "severity": "major",
+    "mechanism": "Loss of functioning nephrons prevents compensatory potassium elimination, causing rapid lethal hyperkalemia.",
+    "evidenceLevel": "established",
+    "source": "KDIGO Guidelines & American Heart Association",
+    "explanations": {
+      "simple": "Because Spironolactone keeps your body from eliminating potassium, taking it with severe kidney problems can lead to dangerous cardiac arrest.",
+      "detailed": "In severe renal insufficiency (eGFR < 30 mL/min), distal potassium secretion is already heavily compromised. Aldosterone antagonism leads to rapid, fatal hyperkalemia.",
+      "clinician": "Contraindicated if eGFR < 30 mL/min/1.73m2 or serum potassium > 5.0 mEq/L. High mortality from cardiac arrhythmias."
+    },
+    "precaution": "Spironolactone should not be taken with severe kidney disease. Immediate medical attention needed for irregular pulse or muscle paralysis."
+  },
+  {
+    "id": "dis-017",
+    "drug": "atorvastatin",
+    "condition": "active liver disease",
+    "severity": "major",
+    "mechanism": "Hepatic uptake and metabolism are impaired, leading to systemic statin accumulation and acute hepatocellular injury.",
+    "evidenceLevel": "established",
+    "source": "FDA Statin Labeling & Hepatology Journal",
+    "explanations": {
+      "simple": "Atorvastatin is processed by the liver. In active liver disease, taking it can lead to further liver stress and muscle breakdown.",
+      "detailed": "Impaired biliary and hepatic clearance leads to marked elevation of plasma statin concentrations, elevating transaminases and risking severe hepatotoxicity.",
+      "clinician": "Contraindicated in active liver disease or unexplained persistent elevations in hepatic transaminases (>3x ULN)."
+    },
+    "precaution": "Inform your doctor about any liver infections, cirrhosis, or abnormal liver function tests before starting Atorvastatin."
+  },
+  {
+    "id": "dis-018",
+    "drug": "rosuvastatin",
+    "condition": "active liver disease",
+    "severity": "major",
+    "mechanism": "Decreased biliary excretion and hepatic clearance cause systemic accumulation and potential hepatic inflammation.",
+    "evidenceLevel": "established",
+    "source": "AASLD Practice Guidelines",
+    "explanations": {
+      "simple": "Rosuvastatin should be avoided in active liver disease to prevent further liver injury and muscle toxicity.",
+      "detailed": "Contraindicated in patients with active liver disease or unexplained ALT/AST elevations exceeding 3x upper limit of normal.",
+      "clinician": "Perform baseline liver panel prior to initiation. Discontinue if persistent jaundice or significant transaminitis occurs."
+    },
+    "precaution": "Do not take Rosuvastatin if you have active liver disease or hepatitis."
+  },
+  {
+    "id": "dis-019",
+    "drug": "warfarin",
+    "condition": "active bleeding",
+    "severity": "major",
+    "mechanism": "Inhibition of vitamin K-dependent coagulation factors prevents clot formation, converting minor bleeds into life-threatening hemorrhages.",
+    "evidenceLevel": "established",
+    "source": "Chest Antithrombotic Therapy Guidelines",
+    "explanations": {
+      "simple": "Taking Warfarin during active bleeding stops your body from clotting and can cause fatal blood loss.",
+      "detailed": "Warfarin depletes prothrombin (Factor II) and factors VII, IX, and X, making physiological hemostasis impossible during active hemorrhagic lesions.",
+      "clinician": "Absolute contraindication. Reverse immediately with intravenous Vitamin K1 and 4-factor prothrombin complex concentrate (PCC) if active major hemorrhage is present."
+    },
+    "precaution": "Never take Warfarin if you are experiencing active bleeding, blood in your urine, or vomiting blood. Seek immediate emergency medical care."
+  },
+  {
+    "id": "dis-020",
+    "drug": "alprazolam",
+    "condition": "sleep apnea",
+    "severity": "major",
+    "mechanism": "Benzodiazepines relax upper airway pharyngeal musculature and blunt hypercapnic central ventilatory drive, causing prolonged obstructive apneas.",
+    "evidenceLevel": "established",
+    "source": "American Academy of Sleep Medicine Guidelines",
+    "explanations": {
+      "simple": "Alprazolam relaxes your throat muscles and slows your breathing, which makes Sleep Apnea episodes much more severe and dangerous.",
+      "detailed": "Suppresses hypoglossal nerve motor output to the genioglossus muscle, exacerbating upper airway collapsibility, while dampening central chemoreceptor response to hypoxia/hypercapnia.",
+      "clinician": "Contraindicated in severe untreated obstructive sleep apnea (OSA). Markedly increases nocturnal desaturation indices and cardiovascular strain."
+    },
+    "precaution": "Avoid sedatives like Alprazolam if you have sleep apnea. Consult a sleep specialist."
+  },
+  {
+    "id": "dis-021",
+    "drug": "clonazepam",
+    "condition": "sleep apnea",
+    "severity": "major",
+    "mechanism": "Central respiratory depression and reduction in upper airway muscle tone worsen nocturnal hypoventilation.",
+    "evidenceLevel": "established",
+    "source": "Sleep Medicine Reviews",
+    "explanations": {
+      "simple": "Clonazepam can worsen breathing pauses during sleep and drop your oxygen levels dangerously low.",
+      "detailed": "Exacerbates upper airway resistance and delays arousal response to asphyxic episodes in obstructive sleep apnea.",
+      "clinician": "Relative to absolute contraindication in severe OSA. Can precipitate acute nocturnal hypercapnic respiratory failure."
+    },
+    "precaution": "Do not take Clonazepam if you have untreated sleep apnea."
+  },
+  {
+    "id": "dis-022",
+    "drug": "glimepiride",
+    "condition": "severe kidney disease",
+    "severity": "major",
+    "mechanism": "Impaired clearance of active glimepiride metabolites causes severe, prolonged, and refractory hypoglycemia.",
+    "evidenceLevel": "established",
+    "source": "Kidney International & ADA Diabetes Guidelines",
+    "explanations": {
+      "simple": "Glimepiride stays trapped in your body much longer when your kidneys are failing, causing severe, prolonged low blood sugar crashes.",
+      "detailed": "Both parent glimepiride and active metabolite M1 accumulate in renal failure, continuously stimulating insulin release independent of ambient glucose levels, leading to neuroglycopenia and coma.",
+      "clinician": "Contraindicated if eGFR < 30 mL/min. High risk of fatal hypoglycemic coma. Transition patient to DPP-4 inhibitors (Linagliptin) or insulin."
+    },
+    "precaution": "Avoid Glimepiride in severe kidney disease. Always keep sugar packets or glucose candy near you."
+  },
+  {
+    "id": "dis-023",
+    "drug": "ramipril",
+    "condition": "hyperkalemia",
+    "severity": "major",
+    "mechanism": "Suppression of angiotensin II blunts adrenal aldosterone secretion, exacerbating severe potassium retention.",
+    "evidenceLevel": "established",
+    "source": "Circulation Journal",
+    "explanations": {
+      "simple": "Ramipril prevents your body from excreting potassium. If your potassium is already high, it can provoke dangerous heart arrhythmias.",
+      "detailed": "Aldosterone deficiency reduces principal cell potassium excretion in the cortical collecting duct. Concomitant hyperkalemia can lead to sine wave ECG patterns and ventricular fibrillation.",
+      "clinician": "Hold Ramipril if serum K+ > 5.5 mEq/L. Investigate underlying etiologies and resume only after potassium stabilizes."
+    },
+    "precaution": "Do not take Ramipril if your blood test shows high potassium. Follow up immediately with your physician."
+  },
+  {
+    "id": "dis-024",
+    "drug": "telmisartan",
+    "condition": "hyperkalemia",
+    "severity": "major",
+    "mechanism": "Selective AT1 receptor blockade downregulates aldosterone release, worsening potassium retention.",
+    "evidenceLevel": "established",
+    "source": "Journal of the American College of Cardiology",
+    "explanations": {
+      "simple": "Telmisartan stops your kidneys from getting rid of potassium, which can worsen already elevated blood potassium.",
+      "detailed": "Inhibition of AT1 receptor signaling impairs aldosterone synthesis and promotes severe hyperkalemia in patients with pre-existing electrolyte imbalance.",
+      "clinician": "Withhold if K+ > 5.5 mEq/L. Repeat electrolyte measurements and reassess dietary and supplement sources."
+    },
+    "precaution": "Stop taking Telmisartan and seek medical care if your blood tests show high potassium."
+  },
+  {
+    "id": "dis-025",
+    "drug": "warfarin",
+    "condition": "hypertension",
+    "severity": "moderate",
+    "mechanism": "Uncontrolled elevated systemic arterial blood pressure exponentially multiplies intracranial hemorrhage risk during anticoagulation.",
+    "evidenceLevel": "established",
+    "source": "HAS-BLED Bleeding Risk Score & AHA Stroke Guidelines",
+    "explanations": {
+      "simple": "Potential medication-related risk detected. High blood pressure combined with Warfarin significantly raises the danger of bleeding inside the brain (hemorrhagic stroke).",
+      "detailed": "Hypertensive vascular remodeling damages small cerebral perforating arteries (Charcot-Bouchard microaneurysms). Concomitant Warfarin anticoagulation prevents hemostatic tamponade if a vessel ruptures, dramatically increasing stroke mortality.",
+      "clinician": "Consult a healthcare professional before continuing or modifying the medication. Maintain blood pressure strictly < 130/80 mmHg in anticoagulated patients. Uncontrolled systolic BP > 160 mmHg is a major independent predictor of fatal intracranial bleed."
+    },
+    "precaution": "Consult a healthcare professional before continuing or modifying the medication. Ensure your blood pressure is strictly monitored and kept well controlled."
+  }
+]

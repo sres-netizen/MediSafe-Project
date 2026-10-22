@@ -1,0 +1,15 @@
+{
+  "name": "medisafe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MediSafe: Explainable, Patient-Centered Medication Safety CDSS",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "node backend/test-engine.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

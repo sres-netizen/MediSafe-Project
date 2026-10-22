@@ -1,0 +1,110 @@
+[
+  {
+    "id": "stack-001",
+    "category": "multiple-antiplatelets-anticoagulants",
+    "label": "Multiple Blood Thinners / Antiplatelets",
+    "drugIds": ["warfarin", "aspirin", "clopidogrel", "heparin", "apixaban", "rivaroxaban", "dabigatran"],
+    "threshold": 2,
+    "severity": "major",
+    "pointsLost": 15,
+    "mechanism": "Cumulative inhibition of both platelet aggregation and clotting factor synthesis dramatically amplifies systemic haemorrhagic risk beyond any single-drug effect.",
+    "evidenceLevel": "established",
+    "source": "BMJ Clinical Evidence; BNF Anticoagulant Guidance",
+    "explanations": {
+      "simple": "You have {{count}} blood-thinning drugs together. This stacks up to create a serious risk of uncontrolled bleeding, even from minor injuries.",
+      "detailed": "Having {{count}} anticoagulants or antiplatelets concurrently ({{drugs}}) impairs both primary haemostasis (platelet plug) and secondary haemostasis (clotting cascade). The combined effect is not additive—it is synergistic, drastically raising the risk of GI, cerebral, and post-operative haemorrhage.",
+      "clinician": "Class-level pharmacodynamic synergy across {{count}} haemostatic agents ({{drugs}}). Dual or triple antithrombotic therapy elevates major bleeding events (TIMI major, ISTH criteria) 3–8-fold vs. monotherapy. Mandatory benefit-risk reassessment; PPI co-prescription and regular INR/platelet monitoring required."
+    },
+    "precaution": "Your doctor must supervise any combination of blood-thinning drugs. Report any unusual bruising, dark/tarry stools, or unexpected prolonged bleeding immediately."
+  },
+  {
+    "id": "stack-002",
+    "category": "multiple-nsaids",
+    "label": "Multiple NSAIDs",
+    "drugIds": ["ibuprofen", "diclofenac", "aspirin", "naproxen", "celecoxib", "indomethacin", "ketoprofen", "meloxicam"],
+    "threshold": 2,
+    "severity": "moderate",
+    "pointsLost": 12,
+    "mechanism": "Taking more than one NSAID simultaneously provides no additional analgesic benefit while compounding gastric mucosal erosion, renal prostaglandin suppression, and cardiovascular risk.",
+    "evidenceLevel": "established",
+    "source": "MHRA Drug Safety Update; Goodman & Gilman's",
+    "explanations": {
+      "simple": "You're taking {{count}} anti-inflammatory painkillers at once. Combining them doesn't give extra pain relief but multiplies stomach ulcer and kidney risks.",
+      "detailed": "Multiple COX inhibitors ({{drugs}}) together amplify prostaglandin suppression in the gastric mucosa and renal afferent arterioles. This combination has no clinical rationale and leads to compounded GI toxicity, acute kidney injury risk, and fluid retention.",
+      "clinician": "Irrational polypharmacy: {{count}} COX-1/COX-2 inhibitors co-prescribed ({{drugs}}). Combined therapy doubles GI bleed risk vs. single-NSAID and is associated with acute tubular necrosis in volume-depleted patients. Rationalise to single agent; add PPI; monitor eGFR."
+    },
+    "precaution": "Never take two different painkillers from the same anti-inflammatory family at the same time. Choose one NSAID and supplement with Paracetamol if needed, with a meal."
+  },
+  {
+    "id": "stack-003",
+    "category": "multiple-sedatives-cns-depressants",
+    "label": "Multiple Sedatives / CNS Depressants",
+    "drugIds": ["alprazolam", "clonazepam", "tramadol", "gabapentin", "diazepam", "lorazepam", "zolpidem", "pregabalin", "morphine", "codeine"],
+    "threshold": 2,
+    "severity": "major",
+    "pointsLost": 15,
+    "mechanism": "Additive CNS and respiratory depression from co-administering multiple sedative agents increases the risk of life-threatening respiratory failure, especially during sleep.",
+    "evidenceLevel": "established",
+    "source": "FDA Black Box Warning — CNS Depressants; NICE NG215",
+    "explanations": {
+      "simple": "You have {{count}} sedating/sleep medications together. Combining them seriously increases your risk of breathing problems and dangerous sedation.",
+      "detailed": "Concurrent use of {{count}} CNS depressants ({{drugs}}) produces additive GABA-A potentiation and mu-opioid receptor stimulation. The synergistic respiratory depression can cause dangerously low breathing rates, particularly in sleep, elderly patients, or those with sleep apnoea.",
+      "clinician": "FDA black-box: concurrent benzodiazepines/opioids/gabapentinoids carry a materially elevated risk of respiratory depression and death. Current CNS load: {{drugs}}. Mandatory reassessment; use lowest effective doses, naloxone access, and patient/family counselling."
+    },
+    "precaution": "Alert your doctor that you are taking multiple sedating medications. Avoid alcohol entirely. Do not drive or operate machinery. Have someone check on you at night."
+  },
+  {
+    "id": "stack-004",
+    "category": "multiple-serotonergic",
+    "label": "Multiple Serotonergic Drugs",
+    "drugIds": ["sertraline", "escitalopram", "tramadol", "venlafaxine", "fluoxetine", "paroxetine", "trazodone", "mirtazapine", "lithium"],
+    "threshold": 2,
+    "severity": "major",
+    "pointsLost": 13,
+    "mechanism": "Simultaneous serotonergic activity from multiple agents raises synaptic serotonin to toxic levels, risking serotonin syndrome — a potentially life-threatening emergency.",
+    "evidenceLevel": "established",
+    "source": "Sternbach Criteria; Hunter Serotonin Toxicity Criteria; FDA Drug Safety",
+    "explanations": {
+      "simple": "You have {{count}} medications that both affect a brain chemical called serotonin. Too much serotonin can cause a dangerous reaction with symptoms like agitation, rapid heartbeat, and muscle twitching.",
+      "detailed": "Co-prescribing {{count}} serotonergic agents ({{drugs}}) can push synaptic serotonin levels beyond physiological regulation. Serotonin syndrome presents with a triad of mental-status changes (agitation, confusion), autonomic instability (tachycardia, diaphoresis, hyperthermia), and neuromuscular abnormalities (clonus, hyperreflexia, myoclonus).",
+      "clinician": "Serotonin toxicity risk: {{count}} serotonergic agents co-prescribed ({{drugs}}). Apply Hunter Serotonin Toxicity Criteria for assessment. Avoid or stagger combination; if unavoidable, counsel on prodrome recognition and ensure access to cyproheptadine."
+    },
+    "precaution": "Tell your doctor about all medications and supplements you take. Watch for sudden agitation, rapid heartbeat, unusual sweating, or muscle twitching and seek emergency care immediately if they occur."
+  },
+  {
+    "id": "stack-005",
+    "category": "multiple-hyperkalaemia",
+    "label": "Multiple Drugs Raising Serum Potassium",
+    "drugIds": ["ramipril", "telmisartan", "losartan", "spironolactone", "amiloride", "eplerenone", "trimethoprim"],
+    "threshold": 2,
+    "severity": "moderate",
+    "pointsLost": 10,
+    "mechanism": "Concurrent agents that each independently raise serum potassium (via aldosterone suppression or reduced renal excretion) compound the risk of dangerous hyperkalaemia and cardiac arrhythmia.",
+    "evidenceLevel": "established",
+    "source": "BNF Renal Safety Guidance; NICE Chronic Heart Failure Guidelines",
+    "explanations": {
+      "simple": "You have {{count}} medications that all raise your blood potassium level. Too much potassium can disrupt your heart rhythm.",
+      "detailed": "Co-prescribing {{count}} agents ({{drugs}}) that raise serum potassium through different but additive mechanisms (ACE inhibition, ARB blockade, aldosterone antagonism) compounds hyperkalaemia risk, particularly in patients with CKD, diabetes, or baseline elevated potassium.",
+      "clinician": "Additive hyperkalaemia risk from {{count}} concurrent reno-aldosterone axis modulators ({{drugs}}). Serum potassium monitoring mandatory at baseline and 1–2 weeks post-initiation. Risk escalates in CKD, diabetes, and elderly populations. Consider dose reduction or substitution."
+    },
+    "precaution": "Arrange a blood test to check your potassium level. Tell your doctor about all your blood pressure and heart medications. Avoid potassium supplements and potassium-rich salt substitutes."
+  },
+  {
+    "id": "stack-006",
+    "category": "multiple-hypotensive",
+    "label": "Multiple Blood Pressure-Lowering Drugs",
+    "drugIds": ["ramipril", "amlodipine", "telmisartan", "losartan", "furosemide", "hydrochlorothiazide", "spironolactone", "metoprolol", "atenolol", "bisoprolol"],
+    "threshold": 3,
+    "severity": "moderate",
+    "pointsLost": 8,
+    "mechanism": "Three or more antihypertensive agents simultaneously may cause excessive blood pressure reduction (hypotension), particularly as postural hypotension in elderly or volume-depleted patients.",
+    "evidenceLevel": "moderate",
+    "source": "JNC 8 Hypertension Guidelines; BNF Section 2.5",
+    "explanations": {
+      "simple": "You are taking {{count}} blood pressure medications at once. This can make your blood pressure drop too low, causing dizziness and falls—especially when you stand up quickly.",
+      "detailed": "Having {{count}} antihypertensives simultaneously ({{drugs}}) compounds vasodilation and volume depletion effects. Excessive blood pressure lowering (systolic <90 mmHg or postural drops >20 mmHg) increases fall risk, acute kidney injury from renal hypoperfusion, and syncopal episodes.",
+      "clinician": "Polypharmacy concern: {{count}} antihypertensive classes co-prescribed ({{drugs}}). Monitor for excessive BP reduction (<130/80 mmHg target may be too aggressive in elderly, frail, or bilateral renal artery stenosis). Check orthostatic BP and renal function 2–4 weeks after combination."
+    },
+    "precaution": "Rise slowly from sitting or lying positions. Take your blood pressure at home and log it. Share the readings with your doctor to adjust doses if needed."
+  }
+]

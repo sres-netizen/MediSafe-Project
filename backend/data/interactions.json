@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "ddi-001",
+    "drugA": "warfarin",
+    "drugB": "aspirin",
+    "severity": "major",
+    "mechanism": "Additive antiplatelet and anticoagulant effects severely impair primary and secondary hemostasis.",
+    "evidenceLevel": "established",
+    "source": "British National Formulary & FDA Drug Safety",
+    "explanations": {
+      "simple": "Taking Warfarin and Aspirin together multiplies your danger of severe internal bleeding and easy bruising.",
+      "detailed": "Aspirin permanently blocks platelet aggregation (COX-1 inhibition), while Warfarin blocks clotting factor synthesis in the liver. Inhibiting both pathways simultaneously drastically elevates gastrointestinal and cerebral hemorrhage risk.",
+      "clinician": "Pharmacodynamic synergy: dual inhibition of primary hemostasis (platelet thromboxane A2) and secondary hemostasis (factors II, VII, IX, X). Avoid combination unless specifically indicated (e.g. mechanical heart valves) with rigorous INR monitoring (2.0-2.5) and PPI co-prescription."
+    },
+    "precaution": "Do not combine without direct cardiologist supervision. Seek emergency care for red or black stools, coughing blood, or severe sudden headaches."
+  },
+  {
+    "id": "ddi-002",
+    "drugA": "warfarin",
+    "drugB": "ibuprofen",
+    "severity": "major",
+    "mechanism": "NSAID-induced gastric mucosal erosion combined with systemic anticoagulation increases major gastrointestinal bleeding risk.",
+    "evidenceLevel": "established",
+    "source": "Goodman & Gilman's Pharmacological Basis of Therapeutics",
+    "explanations": {
+      "simple": "Ibuprofen irritates your stomach lining while Warfarin keeps your blood from clotting, creating a high risk of stomach ulcers and heavy bleeding.",
+      "detailed": "Ibuprofen inhibits protective gastric prostaglandins via COX-1, promoting gastric ulcers. Concurrently, it can displace Warfarin from plasma albumin and transiently interfere with platelet plug formation.",
+      "clinician": "Avoid combination. Non-selective NSAIDs cause microvascular mucosal damage, multiplying upper GI bleed risk 3- to 6-fold in anticoagulated patients. Paracetamol is the preferred analgesic alternative."
+    },
+    "precaution": "Avoid Ibuprofen while on Warfarin. Use Paracetamol for pain relief instead, keeping daily dose under 2000mg."
+  },
+  {
+    "id": "ddi-003",
+    "drugA": "warfarin",
+    "drugB": "diclofenac",
+    "severity": "major",
+    "mechanism": "NSAID gastroduodenal ulceration and platelet inhibition combined with vitamin K antagonism.",
+    "evidenceLevel": "established",
+    "source": "FDA Drug Safety Communication",
+    "explanations": {
+      "simple": "Diclofenac causes stomach irritation that can easily trigger severe stomach bleeding when taken with Warfarin.",
+      "detailed": "Diclofenac inhibits mucosal prostaglandin synthesis and inhibits platelet aggregation. In the presence of Warfarin anticoagulation, even minor erosions can bleed profusely.",
+      "clinician": "Contraindicated in routine clinical practice due to high risk of life-threatening GI hemorrhage. Substitute with paracetamol or topical non-systemic analgesia."
+    },
+    "precaution": "Never take Diclofenac with Warfarin. Consult your doctor for safe alternatives like Paracetamol."
+  },
+  {
+    "id": "ddi-004",
+    "drugA": "warfarin",
+    "drugB": "clopidogrel",
+    "severity": "major",
+    "mechanism": "Potent dual inhibition of ADP-induced platelet aggregation and clotting factor synthesis.",
+    "evidenceLevel": "established",
+    "source": "AHA/ACC Antithrombotic Guidelines",
+    "explanations": {
+      "simple": "Both medications thin your blood in different ways. Combining them significantly increases your chance of dangerous bleeding.",
+      "detailed": "Clopidogrel irreversibly inhibits P2Y12 platelet receptors while Warfarin suppresses coagulation cascade factors II, VII, IX, and X. Combined therapy substantially raises major bleeding events.",
+      "clinician": "Combination requires clear clinical indication (e.g., atrial fibrillation with recent acute coronary stenting). Restrict duration to minimum necessary, monitor INR closely, and prescribe gastric acid suppression."
+    },
+    "precaution": "Only take both if prescribed by a cardiologist. Promptly report any blood in urine, bleeding gums, or prolonged nosebleeds."
+  },
+  {
+    "id": "ddi-005",
+    "drugA": "warfarin",
+    "drugB": "ciprofloxacin",
+    "severity": "major",
+    "mechanism": "Inhibition of hepatic CYP1A2 and CYP3A4 metabolism of Warfarin along with gut flora reduction of vitamin K2.",
+    "evidenceLevel": "established",
+    "source": "Clinical Pharmacokinetics",
+    "explanations": {
+      "simple": "Ciprofloxacin stops your body from breaking down Warfarin, causing your blood to become dangerously over-thinned.",
+      "detailed": "Ciprofloxacin inhibits hepatic CYP enzymes responsible for R-warfarin clearance and reduces intestinal flora that produce vitamin K, leading to sudden, dramatic spikes in INR.",
+      "clinician": "Pharmacokinetic inhibition and microbiome perturbation. INR commonly spikes 2-3 fold within 48-72 hours. Frequent INR monitoring and prophylactic 25-50% Warfarin dose reduction are advised."
+    },
+    "precaution": "Check INR within 3 days of starting Ciprofloxacin. Report spontaneous bruising or bleeding immediately."
+  },
+  {
+    "id": "ddi-006",
+    "drugA": "warfarin",
+    "drugB": "metronidazole",
+    "severity": "major",
+    "mechanism": "Potent stereoselective inhibition of CYP2C9 metabolism of the active S-warfarin enantiomer.",
+    "evidenceLevel": "established",
+    "source": "American Journal of Health-System Pharmacy",
+    "explanations": {
+      "simple": "Metronidazole strongly blocks the breakdown of Warfarin, rapidly causing dangerous over-anticoagulation.",
+      "detailed": "Metronidazole specifically inhibits CYP2C9, the primary metabolic clearance pathway of the more potent S-enantiomer of Warfarin, causing rapid accumulation and catastrophic bleeding risk.",
+      "clinician": "Major pharmacokinetic interaction. Empiric Warfarin dose reduction by 30-50% is required, with INR checked every 2-3 days during concurrent antimicrobial therapy."
+    },
+    "precaution": "Your Warfarin dose will almost certainly need to be reduced while on Metronidazole. Contact your prescriber immediately."
+  },
+  {
+    "id": "ddi-007",
+    "drugA": "warfarin",
+    "drugB": "azithromycin",
+    "severity": "moderate",
+    "mechanism": "Alteration of bowel flora responsible for endogenous vitamin K synthesis.",
+    "evidenceLevel": "moderate",
+    "source": "Pharmacotherapy Journal",
+    "explanations": {
+      "simple": "Azithromycin can reduce the natural vitamin K in your intestines, making Warfarin work more strongly than intended.",
+      "detailed": "Broad-spectrum macrolides alter gut microbiota, decreasing intestinal vitamin K production and potentially elevating Warfarin-mediated hypoprothrombinemia.",
+      "clinician": "Monitor INR within 3-5 days of initiating Azithromycin. While less potent than erythromycin, clinically significant INR elevation occurs in susceptible individuals."
+    },
+    "precaution": "Monitor your INR 3 to 4 days after starting Azithromycin to ensure your clotting time stays in target range."
+  },
+  {
+    "id": "ddi-008",
+    "drugA": "aspirin",
+    "drugB": "ibuprofen",
+    "severity": "moderate",
+    "mechanism": "Competitive antagonism at the platelet COX-1 binding site blunts Aspirin's cardioprotective antiplatelet effect.",
+    "evidenceLevel": "established",
+    "source": "FDA Science Paper & NEJM",
+    "explanations": {
+      "simple": "Ibuprofen physically blocks Aspirin from protecting your heart against clots, while also increasing stomach irritation.",
+      "detailed": "Ibuprofen competitively and reversibly occupies the catalytic channel of platelet cyclooxygenase-1 (COX-1), obstructing Aspirin from irreversibly acetylating Serine-529. This abrogates Aspirin's cardioprotective antiplatelet activity.",
+      "clinician": "Take low-dose Aspirin at least 30-60 minutes before Ibuprofen, or 8 hours after Ibuprofen. Better yet, substitute with Paracetamol for analgesia to avoid undermining cardiovascular protection."
+    },
+    "precaution": "If you take baby Aspirin for heart protection, take it at least 1 hour before Ibuprofen, or switch to Paracetamol for pain."
+  },
+  {
+    "id": "ddi-009",
+    "drugA": "aspirin",
+    "drugB": "clopidogrel",
+    "severity": "moderate",
+    "mechanism": "Dual antiplatelet therapy (DAPT) provides synergistic platelet inhibition with heightened bleeding risk.",
+    "evidenceLevel": "established",
+    "source": "CURE and PLATO Clinical Trials",
+    "explanations": {
+      "simple": "Taking both Aspirin and Clopidogrel together is powerful for preventing stent clots, but significantly raises bleeding danger.",
+      "detailed": "Synergistic inhibition of thromboxane A2 pathway (Aspirin) and ADP P2Y12 pathway (Clopidogrel). Standard protocol post-PCI/ACS, but carries higher risk of major GI hemorrhage.",
+      "clinician": "Accepted standard in acute coronary syndromes and post-percutaneous coronary intervention (PCI). Co-prescribe a proton pump inhibitor (PPI, preferably pantoprazole) to mitigate upper GI bleed risk."
+    },
+    "precaution": "Take exactly for the duration prescribed by your cardiologist. Never stop suddenly without doctor consultation."
+  },
+  {
+    "id": "ddi-010",
+    "drugA": "aspirin",
+    "drugB": "prednisolone",
+    "severity": "major",
+    "mechanism": "Synergistic ulcerogenic damage to the gastric mucosal barrier with increased gastrointestinal ulceration and hemorrhage.",
+    "evidenceLevel": "established",
+    "source": "Gastroenterology Journal",
+    "explanations": {
+      "simple": "Both Aspirin and Prednisolone strip the natural protective lining of your stomach, greatly increasing your ulcer and internal bleeding risk.",
+      "detailed": "Corticosteroids inhibit phospholipase A2 and impair mucosal healing, while Aspirin blocks COX-1 mucosal prostaglandins and causes topical epithelial injury. The combination increases peptic ulcer disease risk up to 10-fold.",
+      "clinician": "Dual mucosal toxicity. Co-prescription mandates gastroprotective therapy (e.g. Pantoprazole 40mg daily). Advise patient to immediately report melena, hematemesis, or burning epigastric pain."
+    },
+    "precaution": "Take with substantial meals. Take a protective stomach medicine like Pantoprazole as recommended by your physician."
+  },
+  {
+    "id": "ddi-011",
+    "drugA": "ibuprofen",
+    "drugB": "ramipril",
+    "severity": "moderate",
+    "mechanism": "NSAIDs inhibit renal vasodilatory prostaglandins, impairing renal blood flow and blunting ACE inhibitor antihypertensive efficacy.",
+    "evidenceLevel": "established",
+    "source": "Hypertension Journal & KDIGO Guidelines",
+    "explanations": {
+      "simple": "Ibuprofen stops Ramipril from lowering your blood pressure properly and can put sudden stress on your kidneys.",
+      "detailed": "Ramipril dilates the efferent renal arteriole. Ibuprofen constricts the afferent arteriole by suppressing renal vasodilating prostaglandins (PGE2, PGI2). This combined hemodynamic insult causes a rapid drop in glomerular filtration rate (GFR).",
+      "clinician": "Part of the clinical 'Triple Whammy' (ACEi + Diuretic + NSAID). Can precipitate acute kidney injury (AKI) and worsen hypertension. Avoid chronic NSAID use; monitor serum creatinine and potassium."
+    },
+    "precaution": "Avoid routine Ibuprofen while taking blood pressure medications like Ramipril. Use Paracetamol for mild pain."
+  },
+  {
+    "id": "ddi-012",
+    "drugA": "ibuprofen",
+    "drugB": "telmisartan",
+    "severity": "moderate",
+    "mechanism": "NSAID inhibition of renal prostaglandins impairs autoregulatory filtration when combined with ARB-mediated efferent arteriolar vasodilation.",
+    "evidenceLevel": "established",
+    "source": "Kidney International",
+    "explanations": {
+      "simple": "Ibuprofen can counteract Telmisartan's blood pressure control and cause unexpected strain on your kidneys.",
+      "detailed": "Inhibition of vasodilatory renal prostaglandins by Ibuprofen antagonizes Telmisartan's renal protective hemodynamics, elevating serum creatinine and provoking sodium retention.",
+      "clinician": "Increased risk of acute renal decompensation, especially in dehydrated, elderly, or hypertensive patients. Limit NSAID course to <= 48 hours or substitute paracetamol."
+    },
+    "precaution": "Limit painkiller use to Paracetamol. Contact your doctor if you notice sudden swelling in ankles or decreased urination."
+  },
+  {
+    "id": "ddi-013",
+    "drugA": "ibuprofen",
+    "drugB": "spironolactone",
+    "severity": "major",
+    "mechanism": "NSAIDs decrease prostaglandin-dependent renin release while Spironolactone retains potassium, causing life-threatening hyperkalemia.",
+    "evidenceLevel": "established",
+    "source": "Circulation & American Heart Association",
+    "explanations": {
+      "simple": "Combining Ibuprofen and Spironolactone can cause dangerous buildup of potassium in your blood, which can disrupt heart rhythm.",
+      "detailed": "Ibuprofen induces hyporeninemic hypoaldosteronism, reducing urinary potassium excretion. When combined with the potassium-sparing action of Spironolactone, serum potassium can surge past 6.0 mEq/L.",
+      "clinician": "High risk of severe hyperkalemia and acute renal failure. Avoid concurrent NSAID administration. Monitor serum potassium, BUN, and creatinine within 5 days if co-prescribed."
+    },
+    "precaution": "Do not take Ibuprofen with Spironolactone. Seek urgent medical advice if you feel irregular heartbeats, muscle weakness, or severe fatigue."
+  },
+  {
+    "id": "ddi-014",
+    "drugA": "ibuprofen",
+    "drugB": "furosemide",
+    "severity": "moderate",
+    "mechanism": "NSAIDs inhibit renal prostaglandins, attenuating furosemide-induced natriuresis, diuresis, and blood pressure reduction.",
+    "evidenceLevel": "established",
+    "source": "Journal of Clinical Pharmacology",
+    "explanations": {
+      "simple": "Ibuprofen makes Furosemide less effective at clearing extra water from your body, causing fluid retention.",
+      "detailed": "Furosemide relies partly on prostaglandin synthesis for its full diuretic and renal hemodynamic action. Ibuprofen blunts loop diuretic responsiveness and causes sodium retention.",
+      "clinician": "Patients with congestive heart failure, nephrotic syndrome, or cirrhosis may develop acute fluid overload or worsening renal insufficiency. Monitor weight and edema closely."
+    },
+    "precaution": "Watch out for leg swelling or shortness of breath. Switch to Paracetamol for pain relief."
+  },
+  {
+    "id": "ddi-015",
+    "drugA": "ibuprofen",
+    "drugB": "prednisolone",
+    "severity": "major",
+    "mechanism": "Dual suppression of gastric mucosal barrier defenses multiplies ulceration, perforation, and bleeding hazard.",
+    "evidenceLevel": "established",
+    "source": "Lancet Gastroenterology",
+    "explanations": {
+      "simple": "Taking Ibuprofen and Prednisolone together severely damages stomach protection, often triggering stomach ulcers.",
+      "detailed": "Both agents compromise the gastric epithelial mucus-bicarbonate barrier: Ibuprofen suppresses COX-1 cytoprotection and steroids impair mucosal tissue repair and cell proliferation.",
+      "clinician": "Relative contraindication. The relative risk of upper GI bleeding increases approximately 4-fold compared to NSAIDs alone. Mandatory prophylactic PPI therapy if combination is unavoidable."
+    },
+    "precaution": "Always take with food and ask your doctor for a stomach-protecting medication like Pantoprazole."
+  },
+  {
+    "id": "ddi-016",
+    "drugA": "ibuprofen",
+    "drugB": "methotrexate",
+    "severity": "major",
+    "mechanism": "NSAIDs competitively inhibit renal tubular secretion of Methotrexate, causing toxic systemic accumulation.",
+    "evidenceLevel": "established",
+    "source": "Arthritis & Rheumatology Journal & FDA Black Box Warning",
+    "explanations": {
+      "simple": "Ibuprofen prevents your kidneys from filtering Methotrexate, leading to dangerous, toxic Methotrexate levels in your body.",
+      "detailed": "NSAIDs inhibit organic anion transporters (OAT1/OAT3) in the renal proximal tubules, sharply reducing renal clearance of Methotrexate and triggering severe myelosuppression, hepatotoxicity, and stomatitis.",
+      "clinician": "Severe interaction. Fatalities have been reported. Co-administration with high-dose methotrexate is contraindicated. If used with low-dose weekly regimens for RA, monitor CBC, renal, and liver panels weekly."
+    },
+    "precaution": "Never take Ibuprofen or pain relievers without checking with your rheumatologist. Use Paracetamol if approved."
+  },
+  {
+    "id": "ddi-017",
+    "drugA": "diclofenac",
+    "drugB": "ramipril",
+    "severity": "moderate",
+    "mechanism": "NSAID-mediated renal prostaglandin suppression opposes ACE inhibitor-mediated renal vasodilation, impairing GFR.",
+    "evidenceLevel": "established",
+    "source": "British Journal of Clinical Pharmacology",
+    "explanations": {
+      "simple": "Diclofenac can reduce the effectiveness of Ramipril in controlling blood pressure and risk kidney damage.",
+      "detailed": "Inhibition of renal prostaglandins reduces afferent renal arteriolar tone, opposing the efferent vasodilation of Ramipril and causing acute hemodynamic renal decline.",
+      "clinician": "Elevates risk of acute kidney injury and blunt antihypertensive therapy. Monitor renal function and blood pressure."
+    },
+    "precaution": "Check your blood pressure regularly and avoid routine use of Diclofenac with Ramipril."
+  },
+  {
+    "id": "ddi-018",
+    "drugA": "diclofenac",
+    "drugB": "spironolactone",
+    "severity": "major",
+    "mechanism": "Synergistic reduction in renal potassium clearance leading to severe hyperkalemia.",
+    "evidenceLevel": "established",
+    "source": "American Journal of Kidney Diseases",
+    "explanations": {
+      "simple": "Taking Diclofenac with Spironolactone can rapidly elevate potassium levels in your bloodstream, which can be dangerous for your heart.",
+      "detailed": "Diclofenac suppresses renal prostacyclin and renin synthesis, which downregulates aldosterone. Combined with the direct aldosterone antagonism of Spironolactone, life-threatening hyperkalemia can occur.",
+      "clinician": "High-risk combination. Potentially triggers lethal cardiac conduction abnormalities. Strict avoidance of NSAIDs is recommended for patients on potassium-sparing diuretics."
+    },
+    "precaution": "Do not take Diclofenac while taking Spironolactone. Switch to Paracetamol."
+  },
+  {
+    "id": "ddi-019",
+    "drugA": "diclofenac",
+    "drugB": "methotrexate",
+    "severity": "major",
+    "mechanism": "Impaired renal tubular secretion and reduced renal blood flow lead to Methotrexate toxicity.",
+    "evidenceLevel": "established",
+    "source": "FDA Safety Alerts",
+    "explanations": {
+      "simple": "Diclofenac stops Methotrexate from leaving your body through the kidneys, resulting in severe toxicity.",
+      "detailed": "Diclofenac blocks renal organic anion clearance of Methotrexate, creating prolonged high plasma concentrations that cause bone marrow suppression and GI toxicity.",
+      "clinician": "Contraindicated with high-dose methotrexate; use extreme vigilance with low-dose regimens. Check complete blood counts and liver enzymes."
+    },
+    "precaution": "Do not take Diclofenac while on Methotrexate. Contact your rheumatologist for safe pain options."
+  },
+  {
+    "id": "ddi-020",
+    "drugA": "ramipril",
+    "drugB": "spironolactone",
+    "severity": "major",
+    "mechanism": "Combined inhibition of aldosterone production and action dramatically reduces urinary potassium elimination.",
+    "evidenceLevel": "established",
+    "source": "RALES Clinical Trial & ACC/AHA Heart Failure Guidelines",
+    "explanations": {
+      "simple": "Both Ramipril and Spironolactone cause your body to hold onto potassium. Too much potassium can cause dangerous heart rhythm problems.",
+      "detailed": "Ramipril suppresses angiotensin II and downstream aldosterone secretion, while Spironolactone competitively blocks mineralocorticoid receptors. This dual blockade stops renal potassium excretion.",
+      "clinician": "Frequently co-prescribed in heart failure with reduced ejection fraction (HFrEF), but demands rigorous potassium monitoring. Avoid if baseline K+ > 5.0 mEq/L or eGFR < 30 mL/min."
+    },
+    "precaution": "Have your potassium levels checked with a routine blood test within 1-2 weeks of starting or changing doses."
+  },
+  {
+    "id": "ddi-021",
+    "drugA": "telmisartan",
+    "drugB": "spironolactone",
+    "severity": "major",
+    "mechanism": "Additive potassium retention through dual antagonism of the renin-angiotensin-aldosterone axis.",
+    "evidenceLevel": "established",
+    "source": "European Heart Journal",
+    "explanations": {
+      "simple": "Combining Telmisartan and Spironolactone can make potassium build up to unsafe levels in your body.",
+      "detailed": "Telmisartan blocks AT1 receptors, blunting aldosterone release. Combined with Spironolactone's competitive aldosterone inhibition, severe hyperkalemia and acute kidney injury can occur.",
+      "clinician": "Commonly utilized in cardiorenal clinics, but serum potassium and creatinine must be monitored at 1 week, 1 month, and every 3-6 months thereafter."
+    },
+    "precaution": "Avoid potassium supplements and salt substitutes. Report muscle weakness, tingling, or unusual fatigue."
+  },
+  {
+    "id": "ddi-022",
+    "drugA": "ramipril",
+    "drugB": "telmisartan",
+    "severity": "major",
+    "mechanism": "Dual RAAS blockade causes increased rates of hyperkalemia, hypotension, and acute kidney failure without added mortality benefit.",
+    "evidenceLevel": "established",
+    "source": "ONTARGET Trial & FDA Advisory",
+    "explanations": {
+      "simple": "Taking two blood pressure medicines of the same class (ACE inhibitor + ARB) doubles kidney and fainting risks without extra benefit.",
+      "detailed": "Simultaneous administration of an ACE inhibitor (Ramipril) and an ARB (Telmisartan) fails to confer cardiovascular benefit while significantly multiplying risks of syncope, severe hyperkalemia, and dialysis-requiring AKI.",
+      "clinician": "Contraindicated. Major clinical trials (ONTARGET, ALTITUDE) demonstrated adverse outcomes with dual RAAS blockade. Discontinue one agent and titrate single-agent therapy."
+    },
+    "precaution": "Do not take both an ACE inhibitor and an ARB together. Speak with your doctor to streamline your regimen."
+  },
+  {
+    "id": "ddi-023",
+    "drugA": "digoxin",
+    "drugB": "spironolactone",
+    "severity": "moderate",
+    "mechanism": "Spironolactone decreases renal tubular secretion and volume of distribution of Digoxin, elevating serum concentrations.",
+    "evidenceLevel": "established",
+    "source": "Circulation Journal",
+    "explanations": {
+      "simple": "Spironolactone can raise the concentration of Digoxin in your blood, making Digoxin toxicity more likely.",
+      "detailed": "Spironolactone impairs renal clearance of Digoxin and can interfere with certain clinical digoxin radioimmunoassays, causing elevated measured and active drug concentrations.",
+      "clinician": "Serum Digoxin levels can rise by 25-30%. Monitor for digitalis toxicity symptoms (nausea, xanthopsia, bradycardia). Check serum digoxin trough level 7-10 days after starting."
+    },
+    "precaution": "Report nausea, loss of appetite, yellow-green visual halos, or slow heart rate to your doctor right away."
+  },
+  {
+    "id": "ddi-024",
+    "drugA": "digoxin",
+    "drugB": "furosemide",
+    "severity": "major",
+    "mechanism": "Loop diuretic-induced hypokalemia and hypomagnesemia sensitize the myocardium to digitalis toxicity and lethal arrhythmias.",
+    "evidenceLevel": "established",
+    "source": "Goodman & Gilman's Pharmacological Basis of Therapeutics",
+    "explanations": {
+      "simple": "Furosemide flushes out potassium, and low potassium makes Digoxin far more toxic to your heart, causing irregular beats.",
+      "detailed": "Hypokalemia enhances Digoxin binding to myocardial Na+/K+-ATPase pumps, precipitating digitalis arrhythmias even with 'therapeutic' digoxin concentrations.",
+      "clinician": "Extremely common in heart failure management. Requires maintenance of serum potassium >= 4.0 mEq/L and magnesium >= 2.0 mg/dL, often with oral potassium supplementation or potassium-sparing agents."
+    },
+    "precaution": "Ensure your blood potassium and magnesium are checked regularly. Take potassium supplements if prescribed."
+  },
+  {
+    "id": "ddi-025",
+    "drugA": "digoxin",
+    "drugB": "azithromycin",
+    "severity": "moderate",
+    "mechanism": "Macrolide inhibition of P-glycoprotein (P-gp) and eradication of gut bacteria (Eubacterium lentum) that metabolize digoxin.",
+    "evidenceLevel": "established",
+    "source": "Clinical Pharmacology & Therapeutics",
+    "explanations": {
+      "simple": "Azithromycin can cause Digoxin levels to shoot up into the toxic range by blocking how your body clears it.",
+      "detailed": "Azithromycin inhibits P-gp efflux transport in the gut and kidneys, increasing oral bioavailability and reducing systemic renal clearance of Digoxin.",
+      "clinician": "Observe for signs of digitalis toxicity. Reduce digoxin dose by 30-50% during macrolide therapy or choose an alternative antibiotic."
+    },
+    "precaution": "Watch closely for nausea, vomiting, dizziness, or slow heart rate while taking Azithromycin."
+  },
+  {
+    "id": "ddi-026",
+    "drugA": "digoxin",
+    "drugB": "amlodipine",
+    "severity": "minor",
+    "mechanism": "Mild decrease in renal clearance of Digoxin and potential additive bradycardia.",
+    "evidenceLevel": "moderate",
+    "source": "American Heart Journal",
+    "explanations": {
+      "simple": "Amlodipine can slightly increase Digoxin levels in your blood, but is usually well tolerated.",
+      "detailed": "Modest P-gp inhibition by Amlodipine may cause a 10-15% rise in digoxin levels. Generally manageable with standard therapeutic monitoring.",
+      "clinician": "Minimal clinical impact in most patients. Baseline pulse check and standard digoxin monitoring recommended."
+    },
+    "precaution": "Check your resting pulse occasionally to make sure it does not drop below 60 beats per minute."
+  },
+  {
+    "id": "ddi-027",
+    "drugA": "sertraline",
+    "drugB": "tramadol",
+    "severity": "major",
+    "mechanism": "Additive serotonergic enhancement precipitates Serotonin Syndrome and substantially lowers the seizure threshold.",
+    "evidenceLevel": "established",
+    "source": "FDA Drug Safety Warning & Hunter Serotonin Toxicity Criteria",
+    "explanations": {
+      "simple": "Taking Sertraline with Tramadol can cause a dangerous overload of serotonin, leading to confusion, tremors, fever, and seizures.",
+      "detailed": "Both agents elevate synaptic serotonin (Sertraline via SERT reuptake inhibition; Tramadol via dual serotonin reuptake inhibition and direct receptor stimulation). Also, Tramadol lowers seizure threshold.",
+      "clinician": "High risk of life-threatening Serotonin Syndrome and epileptogenesis. Avoid concurrent use. Use Paracetamol or topical analgesics for pain."
+    },
+    "precaution": "Do not take Tramadol with Sertraline. If you experience fever, shivering, muscle stiffness, or confusion, seek emergency care."
+  },
+  {
+    "id": "ddi-028",
+    "drugA": "escitalopram",
+    "drugB": "tramadol",
+    "severity": "major",
+    "mechanism": "Excessive central serotonergic tone triggering Serotonin Syndrome and lowered seizure threshold.",
+    "evidenceLevel": "established",
+    "source": "Psychosomatics Journal & WHO Safety Database",
+    "explanations": {
+      "simple": "Combining Escitalopram and Tramadol can trigger Serotonin Syndrome, a serious condition with fever, agitation, and tremors.",
+      "detailed": "Escitalopram's selective serotonin reuptake inhibition combined with Tramadol's SNRI mechanism produces additive central and peripheral serotonergic toxicity.",
+      "clinician": "Potentially fatal interaction. Substitute Tramadol with a non-serotonergic analgesic (Paracetamol or NSAID if kidney function allows)."
+    },
+    "precaution": "Avoid taking Tramadol while on Escitalopram. Consult your doctor for non-serotonergic pain relievers."
+  },
+  {
+    "id": "ddi-029",
+    "drugA": "sertraline",
+    "drugB": "aspirin",
+    "severity": "moderate",
+    "mechanism": "Platelet serotonin depletion by SSRI impairs platelet aggregation, compounding Aspirin's antiplatelet bleeding risk.",
+    "evidenceLevel": "established",
+    "source": "BMJ Clinical Review",
+    "explanations": {
+      "simple": "Sertraline reduces your blood's clotting ability, which makes stomach bleeding more likely when taken with Aspirin.",
+      "detailed": "Platelets take up serotonin from the bloodstream to facilitate aggregation. SSRIs deplete platelet serotonin stores, multiplying upper GI bleed risk when paired with Aspirin.",
+      "clinician": "Increases relative risk of upper GI bleeding approximately 3-fold. If co-administration is necessary, recommend PPI gastroprotection."
+    },
+    "precaution": "Take with meals and watch for signs of stomach bleeding such as black or dark stools."
+  },
+  {
+    "id": "ddi-030",
+    "drugA": "sertraline",
+    "drugB": "ibuprofen",
+    "severity": "moderate",
+    "mechanism": "Platelet serotonin depletion combined with NSAID COX-1 inhibition exponentially increases GI mucosal bleeding.",
+    "evidenceLevel": "established",
+    "source": "Gastroenterology & BMJ",
+    "explanations": {
+      "simple": "Combining Sertraline with Ibuprofen increases your risk of stomach ulcers and digestive bleeding.",
+      "detailed": "Dual disruption of hemostasis: NSAID inhibits thromboxane synthesis while SSRI depletes intraplatelet serotonin, severely impairing clot formation.",
+      "clinician": "Advise short courses only or switch to Paracetamol. Consider PPI co-therapy in patients over 65 or with ulcer history."
+    },
+    "precaution": "Use Paracetamol instead of Ibuprofen for routine aches while taking Sertraline."
+  },
+  {
+    "id": "ddi-031",
+    "drugA": "escitalopram",
+    "drugB": "aspirin",
+    "severity": "moderate",
+    "mechanism": "Synergistic impairment of platelet aggregation and enhanced mucosal hemorrhagic tendency.",
+    "evidenceLevel": "established",
+    "source": "Alimentary Pharmacology & Therapeutics",
+    "explanations": {
+      "simple": "Taking Escitalopram and Aspirin together weakens your platelets' ability to form clots, raising bleeding risk.",
+      "detailed": "SSRIs deplete platelet 5-HT, which is required for maximal platelet activation. In combination with Aspirin's irreversible COX-1 inactivation, bleeding time is prolonged.",
+      "clinician": "Monitor for bruising and GI bleeding. Consider co-prescribing a gastroprotective agent like Pantoprazole."
+    },
+    "precaution": "Report unusual bruising or nosebleeds to your doctor."
+  },
+  {
+    "id": "ddi-032",
+    "drugA": "escitalopram",
+    "drugB": "ibuprofen",
+    "severity": "moderate",
+    "mechanism": "Additive impairment of primary hemostasis and gastric mucosal irritation.",
+    "evidenceLevel": "established",
+    "source": "Archives of Internal Medicine",
+    "explanations": {
+      "simple": "Ibuprofen and Escitalopram together increase the risk of stomach pain and gastrointestinal bleeding.",
+      "detailed": "Combined mechanism: platelet serotonin depletion + NSAID-induced prostaglandin inhibition. Increases risk of GI hemorrhage significantly.",
+      "clinician": "Use Paracetamol as first-line analgesic. Limit NSAID co-therapy duration to under 3 days."
+    },
+    "precaution": "Prefer Paracetamol for pain or fever while taking Escitalopram."
+  },
+  {
+    "id": "ddi-033",
+    "drugA": "alprazolam",
+    "drugB": "tramadol",
+    "severity": "major",
+    "mechanism": "Profound additive central nervous system and respiratory depression, risk of fatal hypoventilation.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning on Opioid & Benzodiazepine Concomitant Use",
+    "explanations": {
+      "simple": "Combining Alprazolam with Tramadol can cause extreme drowsiness, breathing difficulties, coma, and even death.",
+      "detailed": "GABA-A receptor potentiation by Alprazolam combined with mu-opioid receptor agonism by Tramadol produces synergistic respiratory center depression in the brainstem.",
+      "clinician": "Black box warning. High risk of fatal overdose. Concomitant prescribing should be strictly avoided unless no alternative exists, with naloxone co-prescribed."
+    },
+    "precaution": "Never combine these two medicines. If someone taking both becomes unresponsive or has slow, shallow breathing, call emergency services immediately."
+  },
+  {
+    "id": "ddi-034",
+    "drugA": "clonazepam",
+    "drugB": "tramadol",
+    "severity": "major",
+    "mechanism": "Synergistic sedation, respiratory depression, coma, and potential mortality from combined opioid and benzodiazepine pharmacology.",
+    "evidenceLevel": "established",
+    "source": "FDA Black Box Warning",
+    "explanations": {
+      "simple": "Taking Clonazepam and Tramadol together causes dangerous sedation that can slow or stop your breathing.",
+      "detailed": "Dual CNS depression: Benzodiazepine-mediated chloride influx via GABA-A receptors plus opioid-mediated hyperpolarization via mu receptors shuts down pontine respiratory drive.",
+      "clinician": "Avoid combination. Markedly increases mortality and accidental overdose hazard. Screen for safer non-opioid pain strategies."
+    },
+    "precaution": "Avoid taking these together. Seek immediate emergency help for severe grogginess or difficulty breathing."
+  },
+  {
+    "id": "ddi-035",
+    "drugA": "alprazolam",
+    "drugB": "clonazepam",
+    "severity": "moderate",
+    "mechanism": "Pharmacodynamic duplication of benzodiazepine GABA-A receptor stimulation.",
+    "evidenceLevel": "established",
+    "source": "American Psychiatric Association Practice Guidelines",
+    "explanations": {
+      "simple": "Taking two different benzodiazepines at the same time is redundant and causes excessive sedation and confusion.",
+      "detailed": "Therapeutic duplication: simultaneous binding to identical GABA-A benzodiazepine receptor sites leads to additive somnolence, cognitive blunting, and fall risk without clinical superiority.",
+      "clinician": "Polypharmacy duplication. Consolidate to a single benzodiazepine agent and establish a structured taper plan."
+    },
+    "precaution": "You should not need two different sedatives from the same family. Ask your doctor to consolidate your prescription."
+  },
+  {
+    "id": "ddi-036",
+    "drugA": "ciprofloxacin",
+    "drugB": "prednisolone",
+    "severity": "major",
+    "mechanism": "Synergistic disruption of tenocyte collagen synthesis drastically increases the risk of severe tendinitis and Achilles tendon rupture.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning & European Medicines Agency",
+    "explanations": {
+      "simple": "Taking Ciprofloxacin with Prednisolone drastically increases your risk of tearing or rupturing a tendon (especially your Achilles tendon in the heel).",
+      "detailed": "Fluoroquinolones cause tenocyte toxicity via chelation of intracellular magnesium and oxidative stress, while corticosteroids inhibit collagen type I synthesis. Concomitant use multiplies tendon rupture risk up to 46-fold.",
+      "clinician": "Contraindicated unless no therapeutic alternative exists. Tendon rupture can occur during therapy or months after cessation. Promptly stop fluoroquinolone if tendon pain/swelling occurs."
+    },
+    "precaution": "Stop taking Ciprofloxacin immediately and contact your doctor if you experience sudden heel pain, swelling, or tenderness."
+  },
+  {
+    "id": "ddi-037",
+    "drugA": "ciprofloxacin",
+    "drugB": "ondansetron",
+    "severity": "major",
+    "mechanism": "Additive cardiac QT interval prolongation elevates risk of Torsades de Pointes and fatal ventricular arrhythmias.",
+    "evidenceLevel": "established",
+    "source": "CredibleMeds QT Database & Circulation",
+    "explanations": {
+      "simple": "Both Ciprofloxacin and Ondansetron can alter your heart's electrical rhythm, which can lead to dangerous fast heartbeats.",
+      "detailed": "Both agents block cardiac hERG voltage-gated potassium channels (IKr current), causing additive prolongation of ventricular repolarization (QTc).",
+      "clinician": "High arrhythmic risk, especially in the presence of hypokalemia, hypomagnesemia, bradycardia, or baseline prolonged QTc. Monitor ECG or substitute an antiemetic like metoclopramide."
+    },
+    "precaution": "Seek medical attention if you experience palpitations, fainting, dizziness, or lightheadedness."
+  },
+  {
+    "id": "ddi-038",
+    "drugA": "azithromycin",
+    "drugB": "ondansetron",
+    "severity": "major",
+    "mechanism": "Additive prolongation of the corrected QT (QTc) interval predisposing to ventricular arrhythmias.",
+    "evidenceLevel": "established",
+    "source": "FDA Drug Safety Communication",
+    "explanations": {
+      "simple": "Both of these medications affect your heart's electrical recovery time, which can trigger an irregular heartbeat.",
+      "detailed": "Additive cardiac repolarization delay via IKr potassium channel blockade. Can lead to syncope, Torsades de Pointes, or sudden cardiac arrest.",
+      "clinician": "Avoid combination when possible, especially in patients with structural heart disease or electrolyte disturbances."
+    },
+    "precaution": "Do not take both without clinical oversight. Report sudden dizziness or rapid heartbeat immediately."
+  },
+  {
+    "id": "ddi-039",
+    "drugA": "metformin",
+    "drugB": "furosemide",
+    "severity": "moderate",
+    "mechanism": "Furosemide increases metformin plasma maximum concentration (Cmax) and AUC without altering renal clearance, while dehydration elevates lactic acidosis risk.",
+    "evidenceLevel": "moderate",
+    "source": "Diabetes Care Journal",
+    "explanations": {
+      "simple": "Furosemide can raise the level of Metformin in your body, and dehydration can increase the risk of a rare condition called lactic acidosis.",
+      "detailed": "Pharmacokinetic interaction: Furosemide increases metformin peak concentration by approximately 22%. In addition, aggressive diuresis can cause hypovolemia and transient prerenal azotemia.",
+      "clinician": "Monitor renal function and blood glucose. Advise patient to maintain adequate hydration. Hold metformin if acute dehydration or renal impairment develops."
+    },
+    "precaution": "Drink plenty of water. If you feel severe muscle pain, rapid breathing, or extreme tiredness, call your doctor."
+  },
+  {
+    "id": "ddi-040",
+    "drugA": "glimepiride",
+    "drugB": "ciprofloxacin",
+    "severity": "major",
+    "mechanism": "Inhibition of CYP2C9 metabolism of Glimepiride combined with fluoroquinolone-induced pancreatic beta-cell stimulation causes severe refractory hypoglycemia.",
+    "evidenceLevel": "established",
+    "source": "American Journal of Kidney Diseases & FDA Adverse Event Reporting",
+    "explanations": {
+      "simple": "Ciprofloxacin can cause your blood sugar to plummet dangerously low when taken with Glimepiride.",
+      "detailed": "Ciprofloxacin inhibits CYP2C9 (which clears glimepiride) and directly blocks ATP-sensitive K+ channels in pancreatic beta cells, triggering massive insulin release and prolonged hypoglycemia.",
+      "clinician": "Significant risk of severe, prolonged hypoglycemia, potentially leading to coma. Test blood glucose frequently; consider reducing glimepiride dose by 50% or switching antibiotic."
+    },
+    "precaution": "Check your blood glucose multiple times a day. Keep fast-acting sugar or glucose tablets with you at all times."
+  },
+  {
+    "id": "ddi-041",
+    "drugA": "atorvastatin",
+    "drugB": "ciprofloxacin",
+    "severity": "moderate",
+    "mechanism": "CYP3A4 inhibition by Ciprofloxacin increases systemic Atorvastatin exposure, raising risk of statin-induced myopathy.",
+    "evidenceLevel": "moderate",
+    "source": "Clinical Pharmacokinetics",
+    "explanations": {
+      "simple": "Ciprofloxacin slows down the clearance of Atorvastatin, which can cause muscle pain, weakness, or muscle breakdown.",
+      "detailed": "Moderate CYP3A4 inhibition elevates serum atorvastatin AUC by 50-100%, significantly increasing the risk of rhabdomyolysis.",
+      "clinician": "Temporarily suspend atorvastatin during the short course of ciprofloxacin, or instruct the patient to report unexplained muscle tenderness."
+    },
+    "precaution": "Contact your doctor if you experience unexplained muscle pain, soreness, or dark tea-colored urine."
+  },
+  {
+    "id": "ddi-042",
+    "drugA": "atorvastatin",
+    "drugB": "azithromycin",
+    "severity": "moderate",
+    "mechanism": "Weak to moderate CYP3A4 and P-gp inhibition increases Atorvastatin bioavailability and systemic exposure.",
+    "evidenceLevel": "moderate",
+    "source": "American Journal of Cardiology",
+    "explanations": {
+      "simple": "Azithromycin can raise Atorvastatin levels in your blood, increasing your chance of muscle aches.",
+      "detailed": "Azithromycin interferes with the hepatic clearance of CYP3A4 substrates. Statin levels rise, raising the incidence of myalgia and CK elevation.",
+      "clinician": "Short courses of azithromycin (3-5 days) usually carry low risk, but watch for muscle symptoms in elderly or renally impaired patients."
+    },
+    "precaution": "Pay attention to any new muscle aches or cramps in your thighs or calves."
+  },
+  {
+    "id": "ddi-043",
+    "drugA": "clopidogrel",
+    "drugB": "omeprazole",
+    "severity": "major",
+    "mechanism": "Competitive CYP2C19 inhibition prevents the metabolic activation of Clopidogrel into its active antiplatelet form.",
+    "evidenceLevel": "established",
+    "source": "FDA Drug Safety Warning & COGENT Trial",
+    "explanations": {
+      "simple": "Omeprazole blocks Clopidogrel from turning into its active form, leaving you unprotected against heart attacks and blood clots.",
+      "detailed": "Clopidogrel is a prodrug requiring hepatic CYP2C19 for conversion to its active thiol metabolite. Omeprazole is a strong irreversible CYP2C19 inhibitor, significantly reducing antiplatelet efficacy.",
+      "clinician": "Significant pharmacodynamic failure. Switch Omeprazole to Pantoprazole, which has negligible CYP2C19 inhibitory activity and does not impair clopidogrel activation."
+    },
+    "precaution": "Do not take Omeprazole with Clopidogrel. Ask your doctor to switch you to Pantoprazole instead."
+  },
+  {
+    "id": "ddi-044",
+    "drugA": "levothyroxine",
+    "drugB": "pantoprazole",
+    "severity": "moderate",
+    "mechanism": "Gastric acid suppression impairs dissolution and intestinal absorption of Levothyroxine sodium.",
+    "evidenceLevel": "established",
+    "source": "Thyroid Journal & Endocrine Society",
+    "explanations": {
+      "simple": "Pantoprazole lowers stomach acid, which can prevent your thyroid medicine (Levothyroxine) from being absorbed properly.",
+      "detailed": "Levothyroxine requires an acidic gastric milieu for tablet disintegration and optimal jejunal absorption. Long-term PPI acid suppression can trigger a rise in TSH levels.",
+      "clinician": "Check TSH levels 6-8 weeks after starting PPI therapy. A 20-30% increase in levothyroxine dosage may be required to maintain euthyroid state."
+    },
+    "precaution": "Take Levothyroxine at least 30-60 minutes before your morning Pantoprazole, and have your thyroid (TSH) tested regularly."
+  },
+  {
+    "id": "ddi-045",
+    "drugA": "levothyroxine",
+    "drugB": "omeprazole",
+    "severity": "moderate",
+    "mechanism": "Elevation of intragastric pH diminishes the bioavailability and absorption rate of Levothyroxine.",
+    "evidenceLevel": "established",
+    "source": "Clinical Endocrinology",
+    "explanations": {
+      "simple": "Omeprazole makes your stomach less acidic, preventing Levothyroxine from absorbing completely.",
+      "detailed": "Elevated gastric pH impairs the ionization and dissolution kinetics of oral levothyroxine tablets. Can lead to refractory hypothyroidism.",
+      "clinician": "Space dosing apart. Monitor serum TSH. Consider switching to liquid levothyroxine if malabsorption persists."
+    },
+    "precaution": "Take Levothyroxine on an empty stomach with plain water at least 1 hour before Omeprazole."
+  },
+  {
+    "id": "ddi-046",
+    "drugA": "allopurinol",
+    "drugB": "amoxicillin",
+    "severity": "moderate",
+    "mechanism": "Synergistic cutaneous hypersensitivity increases the incidence of severe ampicillin/amoxicillin skin rashes.",
+    "evidenceLevel": "established",
+    "source": "Boston Collaborative Drug Surveillance Program",
+    "explanations": {
+      "simple": "Taking Allopurinol with Amoxicillin dramatically increases your chance of breaking out in a severe, widespread skin rash.",
+      "detailed": "Concomitant use increases the incidence of maculopapular and exanthematous skin eruptions from ~6% up to 22%. It also heightens risk of rare severe cutaneous adverse reactions (SCAR/DRESS).",
+      "clinician": "Substitute amoxicillin with an alternative antibiotic class (e.g., cephalosporin or macrolide) if feasible, or educate patient to discontinue at first sign of erythema."
+    },
+    "precaution": "Stop both medications and call your doctor immediately if you develop any rash, itching, or skin peeling."
+  },
+  {
+    "id": "ddi-047",
+    "drugA": "prednisolone",
+    "drugB": "metformin",
+    "severity": "moderate",
+    "mechanism": "Glucocorticoids stimulate hepatic gluconeogenesis and induce peripheral insulin resistance, counteracting antidiabetic therapy.",
+    "evidenceLevel": "established",
+    "source": "Diabetes Care",
+    "explanations": {
+      "simple": "Prednisolone causes blood sugar to rise, which fights directly against Metformin's efforts to keep it normal.",
+      "detailed": "Corticosteroids promote gluconeogenesis, downregulate GLUT-4 transporters, and cause marked postprandial hyperglycemia, requiring adjustment of antidiabetic medications.",
+      "clinician": "Anticipate steroid-induced hyperglycemia, especially in the afternoon and evening. Metformin dose escalation or temporary insulin co-administration may be warranted."
+    },
+    "precaution": "Check your blood sugar more frequently while taking Prednisolone. Your doctor may need to adjust your diabetes medicine."
+  },
+  {
+    "id": "ddi-048",
+    "drugA": "prednisolone",
+    "drugB": "glimepiride",
+    "severity": "moderate",
+    "mechanism": "Corticosteroid-mediated hyperglycemia impairs glycemic control maintained by sulfonylureas.",
+    "evidenceLevel": "established",
+    "source": "Journal of Clinical Endocrinology & Metabolism",
+    "explanations": {
+      "simple": "Prednisolone pushes your blood sugar up, which can overwhelm Glimepiride and lead to high blood sugar spikes.",
+      "detailed": "Steroids create acute peripheral insulin resistance and accelerate glycogen breakdown, frequently destabilizing diabetic patients managed on oral secretagogues.",
+      "clinician": "Frequent glucose monitoring required. Up-titration of glimepiride or temporary basal insulin is often necessary during steroid tapers."
+    },
+    "precaution": "Monitor your blood glucose carefully. Alert your physician if your readings consistently rise above 180-200 mg/dL."
+  },
+  {
+    "id": "ddi-049",
+    "drugA": "spironolactone",
+    "drugB": "hydrochlorothiazide",
+    "severity": "minor",
+    "mechanism": "Complementary diuretic actions with balanced potassium wasting (thiazide) and potassium sparing (spironolactone).",
+    "evidenceLevel": "established",
+    "source": "JNC 8 Hypertension Guidelines",
+    "explanations": {
+      "simple": "These two water pills work well together to lower blood pressure while keeping your potassium balanced, but still require blood tests.",
+      "detailed": "Frequently used synergistic combination (e.g. Aldactazide): HCTZ promotes distal tubule potassium excretion, which is counterbalanced by Spironolactone's cortical collecting duct potassium retention.",
+      "clinician": "Effective antihypertensive synergy with reduced risk of thiazide hypokalemia. Periodic monitoring of electrolytes and renal parameters remains necessary."
+    },
+    "precaution": "Routine blood tests will be done to check your kidney function and electrolyte balance."
+  },
+  {
+    "id": "ddi-050",
+    "drugA": "amlodipine",
+    "drugB": "telmisartan",
+    "severity": "minor",
+    "mechanism": "Synergistic dual-mechanism blood pressure lowering with reduced calcium blocker-induced peripheral edema.",
+    "evidenceLevel": "established",
+    "source": "AHA Hypertension Guidelines",
+    "explanations": {
+      "simple": "This is a beneficial combination for high blood pressure. Telmisartan actually helps reduce the ankle swelling that Amlodipine can cause.",
+      "detailed": "Complimentary arteriolar dilation (Amlodipine) and venular post-capillary dilation (Telmisartan) equalizes hydrostatic pressures and decreases amlodipine-related dependent peripheral edema.",
+      "clinician": "Evidence-based first-line combination therapy for stage 2 hypertension with excellent tolerance and cardiovascular risk reduction."
+    },
+    "precaution": "Take regularly as prescribed. Stand up slowly from sitting or lying down to prevent dizziness."
+  },
+  {
+    "id": "ddi-051",
+    "drugA": "paracetamol",
+    "drugB": "tramadol",
+    "severity": "minor",
+    "mechanism": "Complementary dual analgesic action with peripheral COX inhibition and central opioid/monoaminergic signaling.",
+    "evidenceLevel": "established",
+    "source": "WHO Analgesic Ladder Guidelines",
+    "explanations": {
+      "simple": "Paracetamol and Tramadol complement each other well for moderate to severe pain, but watch your overall Paracetamol intake.",
+      "detailed": "Synergistic multimodal analgesia. Paracetamol provides peripheral and central non-opioid relief, allowing lower required doses of Tramadol.",
+      "clinician": "Common fixed-dose combination (e.g. Ultracet). Ensure total 24-hour paracetamol intake from all sources does not exceed 3000-4000mg to prevent hepatotoxicity."
+    },
+    "precaution": "Check all other pain or cold medicines to make sure you are not accidentally taking extra Paracetamol."
+  },
+  {
+    "id": "ddi-052",
+    "drugA": "paracetamol",
+    "drugB": "ibuprofen",
+    "severity": "minor",
+    "mechanism": "Complementary non-overlapping analgesic mechanisms (central vs peripheral COX inhibition).",
+    "evidenceLevel": "established",
+    "source": "Cochrane Database of Systematic Reviews",
+    "explanations": {
+      "simple": "Taking Paracetamol and Ibuprofen together (or staggered) is safe and provides superior pain relief for short periods.",
+      "detailed": "Commonly used combination (e.g. Combiflam). Provides superior analgesia to either monotherapy alone without compounding organ-specific toxicities if used short-term.",
+      "clinician": "Safe and effective for acute pain. Ensure hydration and recommend taking with food to protect gastric mucosa."
+    },
+    "precaution": "Take with meals and use for the shortest duration necessary."
+  },
+  {
+    "id": "ddi-053",
+    "drugA": "methotrexate",
+    "drugB": "aspirin",
+    "severity": "major",
+    "mechanism": "Aspirin competitively blocks renal tubular clearance and displaces Methotrexate from albumin, triggering severe hematologic toxicity.",
+    "evidenceLevel": "established",
+    "source": "FDA Safety Alerts & Rheumatology Guidelines",
+    "explanations": {
+      "simple": "Aspirin blocks your kidneys from clearing Methotrexate, causing dangerous buildup that can harm your bone marrow.",
+      "detailed": "Aspirin impairs renal excretion of methotrexate via organic anion transport competition and displaces it from serum binding sites, causing pancytopenia and severe stomatitis.",
+      "clinician": "Contraindicated. Fatal bone marrow suppression reported. Paracetamol is the preferred analgesic for arthritis flare-ups."
+    },
+    "precaution": "Do not take Aspirin while on Methotrexate without explicit rheumatology authorization. Report unusual bruising or sore throat."
+  },
+  {
+    "id": "ddi-054",
+    "drugA": "methotrexate",
+    "drugB": "ciprofloxacin",
+    "severity": "moderate",
+    "mechanism": "Inhibition of renal tubular transport of Methotrexate resulting in elevated systemic levels.",
+    "evidenceLevel": "moderate",
+    "source": "Annals of Pharmacotherapy",
+    "explanations": {
+      "simple": "Ciprofloxacin can interfere with how your kidneys remove Methotrexate, increasing the risk of side effects.",
+      "detailed": "Fluoroquinolones may inhibit renal tubular excretion of methotrexate, increasing serum levels and risk of toxicity.",
+      "clinician": "Monitor CBC and liver function if combination is required, or consider an alternate antibiotic."
+    },
+    "precaution": "Notify your doctor if you experience mouth sores, nausea, or unusual fatigue."
+  },
+  {
+    "id": "ddi-055",
+    "drugA": "atorvastatin",
+    "drugB": "rosuvastatin",
+    "severity": "major",
+    "mechanism": "Therapeutic duplication of HMG-CoA reductase inhibition with excessive risk of myopathy, rhabdomyolysis, and liver injury.",
+    "evidenceLevel": "established",
+    "source": "AHA/ACC Cholesterol Guidelines",
+    "explanations": {
+      "simple": "Taking two statins at the same time is dangerous and provides no extra benefit, while greatly increasing muscle damage risk.",
+      "detailed": "Pharmacodynamic duplication: simultaneous use of two potent statins saturates cholesterol synthesis inhibition and exponentially increases the incidence of severe myopathy, myoglobinuria, and hepatotoxicity.",
+      "clinician": "Therapeutic error / duplication. Immediately discontinue one statin and adjust the dosage of the remaining agent based on lipid targets."
+    },
+    "precaution": "Never take two statins together. Check with your doctor to take only one."
+  },
+  {
+    "id": "ddi-056",
+    "drugA": "losartan",
+    "drugB": "ramipril",
+    "severity": "major",
+    "mechanism": "Dual RAAS blockade results in excessive hypotension, hyperkalemia, and impaired glomerular filtration.",
+    "evidenceLevel": "established",
+    "source": "FDA Drug Safety Bulletin",
+    "explanations": {
+      "simple": "Combining Losartan and Ramipril strains your kidneys and can make your blood pressure drop too low.",
+      "detailed": "Dual renin-angiotensin-aldosterone system inhibition fails to improve clinical outcomes while substantially increasing syncope, acute kidney injury, and hyperkalemia.",
+      "clinician": "Contraindicated combination based on ONTARGET trial evidence. Discontinue one of the agents."
+    },
+    "precaution": "Speak with your doctor to take either an ACE inhibitor or an ARB, not both."
+  },
+  {
+    "id": "ddi-057",
+    "drugA": "losartan",
+    "drugB": "spironolactone",
+    "severity": "major",
+    "mechanism": "Potassium-sparing synergy in distal renal tubules leads to severe hyperkalemia.",
+    "evidenceLevel": "established",
+    "source": "European Society of Cardiology",
+    "explanations": {
+      "simple": "Taking Losartan with Spironolactone can cause potassium levels to climb dangerously high in your bloodstream.",
+      "detailed": "Simultaneous suppression of aldosterone synthesis (Losartan) and aldosterone receptor blockade (Spironolactone) impairs potassium excretion, increasing arrhythmia risk.",
+      "clinician": "Requires routine serum potassium and renal panel testing at 1 week, 4 weeks, and quarterly thereafter."
+    },
+    "precaution": "Get blood tests done regularly to keep track of your potassium levels."
+  },
+  {
+    "id": "ddi-058",
+    "drugA": "cetirizine",
+    "drugB": "alprazolam",
+    "severity": "moderate",
+    "mechanism": "Additive central nervous system sedation and psychomotor impairment.",
+    "evidenceLevel": "established",
+    "source": "Clinical Neuropharmacology",
+    "explanations": {
+      "simple": "Cetirizine and Alprazolam both cause drowsiness, and taking them together can make you excessively sleepy and unsteady.",
+      "detailed": "Combined central histaminergic blockade (H1) and GABA-A receptor potentiation induces marked sedation, cognitive impairment, and increased fall risk.",
+      "clinician": "Advise caution with motor vehicle operation. Switch to a non-sedating antihistamine (e.g., Fexofenadine) if daytime alertness is required."
+    },
+    "precaution": "Do not drive or operate machinery if you feel drowsy. Take in the evening."
+  },
+  {
+    "id": "ddi-059",
+    "drugA": "levocetirizine",
+    "drugB": "clonazepam",
+    "severity": "moderate",
+    "mechanism": "Additive CNS depressant effects leading to somnolence and impaired coordination.",
+    "evidenceLevel": "moderate",
+    "source": "Journal of Clinical Psychopharmacology",
+    "explanations": {
+      "simple": "Both medications can cause sleepiness. Taking them together makes daytime fatigue and slow reflexes much more likely.",
+      "detailed": "Additive depressive action on the central nervous system increases sedation and psychomotor slowing.",
+      "clinician": "Monitor for excessive somnolence. Advise taking levocetirizine at bedtime or substituting fexofenadine."
+    },
+    "precaution": "Be cautious when driving or climbing stairs. Avoid any alcoholic beverages."
+  },
+  {
+    "id": "ddi-060",
+    "drugA": "tramadol",
+    "drugB": "gabapentin",
+    "severity": "major",
+    "mechanism": "Additive central nervous system and respiratory depression, risk of profound sedation and respiratory compromise.",
+    "evidenceLevel": "established",
+    "source": "FDA Drug Safety Warning on Gabapentinoids and Opioids",
+    "explanations": {
+      "simple": "Taking Tramadol with Gabapentin can severely slow your breathing and make you dangerously groggy.",
+      "detailed": "Synergistic depressive action on respiratory centers. Opioids suppress breathing drive while gabapentinoids amplify respiratory depression and blunt protective airway reflexes.",
+      "clinician": "FDA safety warning. Concomitant prescribing requires lowest effective starting doses and close surveillance for respiratory depression, especially in elderly patients."
+    },
+    "precaution": "Never exceed prescribed doses. Seek immediate emergency care for severe breathing difficulty or unresponsiveness."
+  },
+  {
+    "id": "ddi-061",
+    "drugA": "alprazolam",
+    "drugB": "gabapentin",
+    "severity": "moderate",
+    "mechanism": "Additive CNS depression, dizziness, ataxia, and cognitive slowing.",
+    "evidenceLevel": "established",
+    "source": "Pharmacotherapy Journal",
+    "explanations": {
+      "simple": "Combining Alprazolam and Gabapentin can make you very sleepy, unsteady on your feet, and dizzy.",
+      "detailed": "Dual CNS depression enhances somnolence, confusion, and fall risk, particularly in geriatric populations.",
+      "clinician": "Use lower doses when starting. Counsel patient regarding fall precautions and strictly prohibit alcohol."
+    },
+    "precaution": "Move slowly when getting up from bed or a chair to prevent falls. Avoid alcohol completely."
+  },
+  {
+    "id": "ddi-062",
+    "drugA": "metronidazole",
+    "drugB": "ondansetron",
+    "severity": "moderate",
+    "mechanism": "Additive risk of cardiac QT interval prolongation and ventricular dysrhythmia.",
+    "evidenceLevel": "moderate",
+    "source": "CredibleMeds Database",
+    "explanations": {
+      "simple": "Taking Metronidazole with Ondansetron can alter the electrical rhythm of your heart.",
+      "detailed": "Both agents have documented potential to delay cardiac ventricular repolarization, increasing risk of QTc prolongation.",
+      "clinician": "Exercise caution in patients with underlying cardiac conduction abnormalities, hypokalemia, or concomitant QT-prolonging drugs."
+    },
+    "precaution": "Alert your physician if you feel a racing heart, skipped beats, or sudden lightheadedness."
+  },
+  {
+    "id": "ddi-063",
+    "drugA": "salbutamol",
+    "drugB": "furosemide",
+    "severity": "moderate",
+    "mechanism": "Additive intracellular potassium shifting and renal excretion provoke severe hypokalemia.",
+    "evidenceLevel": "established",
+    "source": "Thorax Journal & British Medical Journal",
+    "explanations": {
+      "simple": "Using high doses of your Salbutamol inhaler while taking Furosemide can cause blood potassium levels to drop too low.",
+      "detailed": "Beta-2 adrenergic stimulation promotes intracellular potassium uptake via Na+/K+-ATPase pumps, while loop diuretics promote heavy urinary potassium loss, precipitating cardiac arrhythmias.",
+      "clinician": "Monitor serum potassium during acute asthma/COPD exacerbations where high-dose nebulized salbutamol is co-administered with diuretics."
+    },
+    "precaution": "Let your doctor know if you experience muscle cramps, weakness, or irregular heartbeats."
+  },
+  {
+    "id": "ddi-064",
+    "drugA": "pantoprazole",
+    "drugB": "cefixime",
+    "severity": "minor",
+    "mechanism": "Increased gastric pH can slightly reduce the rate and extent of cefixime gastrointestinal dissolution.",
+    "evidenceLevel": "moderate",
+    "source": "Antimicrobial Agents and Chemotherapy",
+    "explanations": {
+      "simple": "Pantoprazole reduces stomach acid, which can slightly slow how fast your body absorbs Cefixime.",
+      "detailed": "Altered intragastric pH may modestly decrease cephalosporin solubility, though usually not clinically detrimental for mild infections.",
+      "clinician": "Take cefixime with meals to stimulate physiological digestive enzymes and acid secretion."
+    },
+    "precaution": "Take Cefixime with food or space it 2 hours apart from your acid reducer."
+  },
+  {
+    "id": "ddi-065",
+    "drugA": "omeprazole",
+    "drugB": "cefixime",
+    "severity": "minor",
+    "mechanism": "Elevated gastric pH slightly decreases solubility of certain cephalosporins.",
+    "evidenceLevel": "moderate",
+    "source": "Clinical Pharmacokinetics",
+    "explanations": {
+      "simple": "Omeprazole makes your stomach less acidic, which can modestly reduce Cefixime absorption.",
+      "detailed": "Minor alteration in oral bioavailability due to elevated gastric pH. Clinically minor if full course is completed.",
+      "clinician": "Space administration or take antibiotic with a meal."
+    },
+    "precaution": "Ensure you take Cefixime with meals and finish the entire course."
+  },
+  {
+    "id": "ddi-066",
+    "drugA": "doxycycline",
+    "drugB": "pantoprazole",
+    "severity": "minor",
+    "mechanism": "Elevated gastric pH can modestly impair the dissolution of doxycycline formulations.",
+    "evidenceLevel": "moderate",
+    "source": "Journal of Antimicrobial Chemotherapy",
+    "explanations": {
+      "simple": "Pantoprazole reduces stomach acid, which can slightly slow the absorption of Doxycycline.",
+      "detailed": "Doxycycline monohydrate solubility decreases at higher pH. Doxycycline hyclate is less susceptible.",
+      "clinician": "Take doxycycline with a full glass of water and meals, spaced 2 hours from PPI dose if feasible."
+    },
+    "precaution": "Take Doxycycline with a full glass of water, standing up, at a different time from your morning Pantoprazole."
+  },
+  {
+    "id": "ddi-067",
+    "drugA": "warfarin",
+    "drugB": "paracetamol",
+    "severity": "moderate",
+    "mechanism": "High chronic doses of Paracetamol inhibit vitamin K-dependent carboxylation, elevating INR.",
+    "evidenceLevel": "established",
+    "source": "JAMA Internal Medicine & Cochrane Review",
+    "explanations": {
+      "simple": "Taking high daily doses of Paracetamol for more than a couple of days can make Warfarin thin your blood more than expected.",
+      "detailed": "Toxic paracetamol metabolite NAPQI inhibits vitamin K epoxide reductase (VKOR) in hepatocytes, potentiating Warfarin's anticoagulant effect when taken at > 2000mg/day for > 3 consecutive days.",
+      "clinician": "Paracetamol is still the safest analgesic for anticoagulated patients, but restrict to < 2000mg daily. Check INR if taken continuously for over 3 days."
+    },
+    "precaution": "Keep daily Paracetamol under 2000mg (four 500mg tablets) and monitor your INR if taking it for multiple days in a row."
+  },
+  {
+    "id": "ddi-068",
+    "drugA": "methotrexate",
+    "drugB": "amoxicillin",
+    "severity": "moderate",
+    "mechanism": "Penicillins compete for renal tubular secretion, potentially reducing methotrexate clearance.",
+    "evidenceLevel": "moderate",
+    "source": "British Journal of Dermatology",
+    "explanations": {
+      "simple": "Amoxicillin can slow down how quickly your kidneys remove Methotrexate, increasing the risk of side effects.",
+      "detailed": "Penicillins compete with methotrexate for renal organic anion transporter (OAT3) secretion, resulting in elevated serum methotrexate levels.",
+      "clinician": "Monitor for signs of methotrexate toxicity (mouth ulcers, leukopenia). Consider alternative antibiotic classes if feasible."
+    },
+    "precaution": "Contact your doctor if you experience painful mouth sores, severe fatigue, or sore throat."
+  },
+  {
+    "id": "ddi-069",
+    "drugA": "clonazepam",
+    "drugB": "gabapentin",
+    "severity": "moderate",
+    "mechanism": "Additive central nervous system depression, dizziness, and sedation.",
+    "evidenceLevel": "moderate",
+    "source": "Journal of Clinical Sleep Medicine",
+    "explanations": {
+      "simple": "Taking Clonazepam and Gabapentin together can cause severe drowsiness and slow your reflexes.",
+      "detailed": "Dual CNS depression enhances somnolence, confusion, and fall risk, particularly in elderly patients.",
+      "clinician": "Counsel patient on fall risk, especially when initiating therapy or titrating doses."
+    },
+    "precaution": "Do not drive, operate tools, or drink alcohol while on this combination."
+  },
+  {
+    "id": "ddi-070",
+    "drugA": "sertraline",
+    "drugB": "alprazolam",
+    "severity": "minor",
+    "mechanism": "Sertraline mildly inhibits CYP3A4 metabolism of Alprazolam, slightly increasing alprazolam levels.",
+    "evidenceLevel": "moderate",
+    "source": "Psychopharmacology Bulletin",
+    "explanations": {
+      "simple": "Sertraline can make Alprazolam last slightly longer in your body, resulting in mild additional drowsiness.",
+      "detailed": "Weak CYP3A4 inhibition by sertraline can produce a 10-20% elevation in peak alprazolam concentrations and clearance half-life.",
+      "clinician": "Common clinical combination for panic/anxiety disorders. Usually well tolerated; reduce alprazolam dose if excessive daytime grogginess occurs."
+    },
+    "precaution": "Take alprazolam exactly as prescribed, and report if you feel overly tired during the day."
+  },
+  {
+    "id": "ddi-071",
+    "drugA": "escitalopram",
+    "drugB": "clonazepam",
+    "severity": "minor",
+    "mechanism": "Complementary anxiolytic and antidepressant effects with mild additive sedation.",
+    "evidenceLevel": "moderate",
+    "source": "Journal of Affective Disorders",
+    "explanations": {
+      "simple": "This combination is frequently used to treat severe anxiety and depression, but causes mild sedation.",
+      "detailed": "Standard psychiatric co-prescription (e.g. Nexito Plus) during the acute SSRI initiation phase. Minimal pharmacokinetic interference.",
+      "clinician": "Effective short-term bridge therapy for acute panic/anxiety until SSRI efficacy is established. Plan a gradual benzodiazepine taper after 4-6 weeks."
+    },
+    "precaution": "Take in the evening as directed by your psychiatrist. Avoid alcohol completely."
+  },
+  {
+    "id": "ddi-072",
+    "drugA": "ramipril",
+    "drugB": "allopurinol",
+    "severity": "moderate",
+    "mechanism": "Heightened risk of severe hypersensitivity reactions and leukopenia.",
+    "evidenceLevel": "moderate",
+    "source": "Lancet Medical Journal & FDA Safety",
+    "explanations": {
+      "simple": "Taking Ramipril with Allopurinol increases your chance of severe allergic skin reactions and changes in white blood cell counts.",
+      "detailed": "ACE inhibitors may decrease renal excretion of allopurinol metabolites or prime immune responsiveness, increasing the incidence of Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN).",
+      "clinician": "Watch for early dermatologic signs. Instruct patient to stop allopurinol immediately upon developing any skin lesions or pruritus."
+    },
+    "precaution": "Stop both medications and seek immediate medical evaluation if you develop any rash, hives, or swelling."
+  },
+  {
+    "id": "ddi-073",
+    "drugA": "prednisolone",
+    "drugB": "warfarin",
+    "severity": "moderate",
+    "mechanism": "Corticosteroids can either increase or decrease Warfarin anticoagulation while also promoting gastric mucosal ulceration.",
+    "evidenceLevel": "established",
+    "source": "Chest Journal & Anticoagulation Guidelines",
+    "explanations": {
+      "simple": "Prednisolone can cause unpredictable changes in your Warfarin blood-thinning level and irritates your stomach lining.",
+      "detailed": "Glucocorticoids induce CYP enzymes (reducing warfarin effect) while simultaneously impairing platelet hemostasis and predisposing to peptic ulcers, creating volatile INR fluctuations.",
+      "clinician": "Check INR within 3-5 days of initiating, modifying, or tapering Prednisolone. Add gastric cytoprotection (PPI)."
+    },
+    "precaution": "Check your INR closely during and after your steroid treatment. Take with meals to protect your stomach."
+  },
+  {
+    "id": "ddi-074",
+    "drugA": "ciprofloxacin",
+    "drugB": "tramadol",
+    "severity": "major",
+    "mechanism": "CYP2D6/CYP3A4 inhibition by Ciprofloxacin increases tramadol exposure while both agents independently lower the seizure threshold.",
+    "evidenceLevel": "established",
+    "source": "European Journal of Clinical Pharmacology",
+    "explanations": {
+      "simple": "Ciprofloxacin and Tramadol both lower the threshold for having a seizure, creating a serious convulsion danger.",
+      "detailed": "Ciprofloxacin inhibits tramadol clearance, and both drugs reduce GABAergic tone in the central nervous system, substantially increasing epileptogenesis and seizure frequency.",
+      "clinician": "High seizure risk, even in patients without a prior seizure history. Avoid combination; use an alternative antibiotic or non-opioid analgesic."
+    },
+    "precaution": "Do not take Tramadol while on Ciprofloxacin. Contact your doctor for a safer pain medicine."
+  },
+  {
+    "id": "ddi-075",
+    "drugA": "metformin",
+    "drugB": "prednisolone",
+    "severity": "moderate",
+    "mechanism": "Corticosteroids promote gluconeogenesis and peripheral insulin resistance, diminishing metformin efficacy.",
+    "evidenceLevel": "established",
+    "source": "Diabetes, Obesity and Metabolism",
+    "explanations": {
+      "simple": "Prednisolone causes your blood sugar to climb, directly counteracting the effect of Metformin.",
+      "detailed": "Glucocorticoids antagonize insulin-mediated glucose uptake and increase hepatic glucose production, elevating fasting and postprandial blood glucose levels.",
+      "clinician": "Anticipate steroid-induced hyperglycemia. Increase metformin dose or initiate temporary supplemental insulin therapy."
+    },
+    "precaution": "Monitor your blood glucose several times daily while taking steroids."
+  },
+  {
+    "id": "ddi-076",
+    "drugA": "furosemide",
+    "drugB": "ramipril",
+    "severity": "moderate",
+    "mechanism": "First-dose hypotension and acute prerenal azotemia when introducing an ACE inhibitor to volume-depleted diuretic-treated patients.",
+    "evidenceLevel": "established",
+    "source": "Heart Journal & NICE Guidelines",
+    "explanations": {
+      "simple": "Taking Furosemide with Ramipril can cause an abrupt drop in blood pressure when you first start, leading to dizziness or fainting.",
+      "detailed": "Volume and sodium depletion from Furosemide renders glomerular filtration highly dependent on angiotensin II efferent vasoconstriction. Introducing Ramipril precipitates rapid hypotension and acute GFR drop.",
+      "clinician": "Standard heart failure regimen, but pause or halve the diuretic dose 24 hours prior to initiating Ramipril at low dose (e.g. 1.25mg). Check renal panel at 1-2 weeks."
+    },
+    "precaution": "Take your first Ramipril dose at bedtime to avoid dizziness. Stay well hydrated."
+  },
+  {
+    "id": "ddi-077",
+    "drugA": "furosemide",
+    "drugB": "telmisartan",
+    "severity": "moderate",
+    "mechanism": "Pre-existing intravascular volume contraction predisposes to severe first-dose hypotension and acute renal impairment upon ARB initiation.",
+    "evidenceLevel": "established",
+    "source": "Journal of the American Society of Nephrology",
+    "explanations": {
+      "simple": "Starting Telmisartan while taking Furosemide can make you dizzy and put sudden temporary strain on your kidneys.",
+      "detailed": "Blockade of angiotensin II receptors in the presence of loop diuretic volume depletion causes acute systemic vasodilation and reduced renal perfusion pressure.",
+      "clinician": "Ensure patient is not dehydrated before initiating or titrating Telmisartan. Monitor blood pressure, creatinine, and electrolytes."
+    },
+    "precaution": "Drink adequate fluids and change positions slowly from lying to standing."
+  },
+  {
+    "id": "ddi-078",
+    "drugA": "allopurinol",
+    "drugB": "warfarin",
+    "severity": "moderate",
+    "mechanism": "Allopurinol may inhibit the hepatic metabolism of Warfarin, increasing anticoagulant response.",
+    "evidenceLevel": "moderate",
+    "source": "Annals of Internal Medicine",
+    "explanations": {
+      "simple": "Allopurinol can make Warfarin stay in your body longer, raising your bleeding risk.",
+      "detailed": "Inhibition of hepatic microsomal enzymes by allopurinol prolongs Warfarin half-life, leading to gradual INR elevation.",
+      "clinician": "Check INR 1 to 2 weeks after initiating or altering allopurinol dosage."
+    },
+    "precaution": "Have your INR checked after starting Allopurinol to ensure your clotting rate is stable."
+  },
+  {
+    "id": "ddi-079",
+    "drugA": "aspirin",
+    "drugB": "spironolactone",
+    "severity": "moderate",
+    "mechanism": "High-dose Aspirin inhibits renal prostaglandins, reducing the natriuretic and diuretic efficacy of Spironolactone.",
+    "evidenceLevel": "moderate",
+    "source": "Circulation",
+    "explanations": {
+      "simple": "High doses of Aspirin can make Spironolactone less effective at removing excess water and salt.",
+      "detailed": "Prostaglandin inhibition impairs Spironolactone-mediated sodium excretion and can elevate blood pressure and serum potassium.",
+      "clinician": "Low-dose cardioprotective aspirin (75-100mg) generally has minimal impact, but high analgesic doses (>300mg) attenuate spironolactone benefit. Monitor blood pressure and potassium."
+    },
+    "precaution": "Avoid high-dose Aspirin for pain. Low-dose baby aspirin for your heart is usually fine under medical advice."
+  },
+  {
+    "id": "ddi-080",
+    "drugA": "sertraline",
+    "drugB": "clonazepam",
+    "severity": "minor",
+    "mechanism": "Complementary anxiolytic mechanism with mild additive sedation.",
+    "evidenceLevel": "established",
+    "source": "Journal of Clinical Psychopharmacology",
+    "explanations": {
+      "simple": "Sertraline and Clonazepam work together well for acute anxiety, with mild drowsiness.",
+      "detailed": "Frequently utilized clinical combination during initial SSRI therapy for severe panic/anxiety disorders. Minimal pharmacokinetic impact.",
+      "clinician": "Safe short-term combination. Taper benzodiazepine once full SSRI therapeutic efficacy is established at 4-6 weeks."
+    },
+    "precaution": "Take as prescribed. Do not consume alcohol while taking these medications."
+  }
+]

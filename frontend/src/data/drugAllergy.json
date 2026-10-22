@@ -1,0 +1,114 @@
+{
+  "penicillin": {
+    "allergyName": "Penicillin",
+    "affectedDrugs": ["amoxicillin", "clavulanate"],
+    "severity": "major",
+    "mechanism": "Type I IgE-mediated immediate hypersensitivity or Type IV T-cell-mediated delayed immune reaction against the core beta-lactam thiazolidine ring structure.",
+    "evidenceLevel": "established",
+    "source": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+    "explanations": {
+      "simple": "Potential allergy-related medication risk detected. You have reported a Penicillin allergy, and this medicine contains a penicillin-family compound that could cause severe hives, facial swelling, or anaphylaxis.",
+      "detailed": "Penicillins share a common beta-lactam core. In allergic individuals, major determinant penicilloyl epitopes bind preformed IgE on mast cells and basophils, triggering degranulation and systemic anaphylaxis.",
+      "clinician": "Contraindicated. Cross-reactivity among aminopenicillins (amoxicillin, ampicillin) is nearly 100%. Substitute with macrolides (Azithromycin) or fluoroquinolones (Ciprofloxacin) based on culture and susceptibility."
+    },
+    "precaution": "Avoid use and consult a healthcare professional. Do not take this medication if you have a known penicillin allergy. Seek immediate emergency care for swelling of lips, throat, or difficulty breathing."
+  },
+  "aspirin": {
+    "allergyName": "Aspirin / NSAID",
+    "affectedDrugs": ["aspirin", "ibuprofen", "diclofenac"],
+    "severity": "major",
+    "mechanism": "Potential allergy-related medication risk detected. Cyclooxygenase-1 inhibition shunts arachidonic acid metabolism to the 5-lipoxygenase pathway, leading to massive cysteinyl leukotriene overproduction (AERD).",
+    "evidenceLevel": "established",
+    "source": "Journal of Allergy and Clinical Immunology & AAAAI",
+    "explanations": {
+      "simple": "Potential allergy-related medication risk detected. You reported an Aspirin/NSAID allergy. Taking this medication can trigger severe bronchospasms, severe facial hives, or respiratory distress.",
+      "detailed": "Aspirin-Exacerbated Respiratory Disease (AERD) / NSAID hypersensitivity: COX-1 inhibition depletes prostaglandin E2 (a natural bronchodilator), removing the brake on 5-lipoxygenase and producing leukotrienes C4, D4, and E4.",
+      "clinician": "Avoid use and consult a healthcare professional. Cross-reactivity between Aspirin and other non-selective COX-1 inhibitors (Ibuprofen, Diclofenac) approaches 90%. Use Paracetamol for analgesia, which is tolerated by >90% of AERD patients at doses <= 1000mg."
+    },
+    "precaution": "Avoid use and consult a healthcare professional. Do not take Aspirin, Ibuprofen, or Diclofenac. Use Paracetamol for fever and pain instead."
+  },
+  "nsaid": {
+    "allergyName": "NSAID",
+    "affectedDrugs": ["ibuprofen", "diclofenac", "aspirin"],
+    "severity": "major",
+    "mechanism": "Leukotriene overproduction or IgE-mediated anaphylaxis triggered by non-steroidal anti-inflammatory agents.",
+    "evidenceLevel": "established",
+    "source": "AAAAI Guidelines",
+    "explanations": {
+      "simple": "Potential allergy-related medication risk detected. You are allergic to NSAIDs. This medication is an NSAID and may cause severe allergic reactions.",
+      "detailed": "Patients with NSAID hypersensitivity cross-react with other agents in the same class due to shared COX-1 inhibition or common hapten structures.",
+      "clinician": "Contraindicated. Switch to paracetamol or acetaminophen."
+    },
+    "precaution": "Avoid use and consult a healthcare professional. Switch to Paracetamol."
+  },
+  "sulfa": {
+    "allergyName": "Sulfa / Sulfonamide",
+    "affectedDrugs": ["glimepiride", "hydrochlorothiazide", "furosemide"],
+    "severity": "moderate",
+    "mechanism": "Immune recognition of the arylsulfonamide or non-arylsulfonamide moiety causing cutaneous eruptions and allergic reactions.",
+    "evidenceLevel": "moderate",
+    "source": "Clinical Reviews in Allergy & Immunology",
+    "explanations": {
+      "simple": "You reported a Sulfa allergy. This medication contains a sulfonamide chemical group that could trigger skin rashes or allergic swelling in sensitive individuals.",
+      "detailed": "While cross-reactivity between antibiotic sulfonamides (arylamines) and non-antibiotic sulfonamides (diuretics, sulfonylureas) is clinically low (<10%), idiosyncratic hypersensitivity can still occur.",
+      "clinician": "Use with caution. Non-arylamine sulfonamides lack the N4 aromatic amine essential for antibiotic sulfa IgE-mediated anaphylaxis, but patients with multiple drug allergies remain predisposed."
+    },
+    "precaution": "Inform your physician of your sulfa allergy before starting this medication. Report any new rashes, hives, or itching immediately."
+  },
+  "cephalosporin": {
+    "allergyName": "Cephalosporin",
+    "affectedDrugs": ["cefixime"],
+    "severity": "major",
+    "mechanism": "Immune hypersensitivity to the 7-aminocephalosporanic acid beta-lactam core or R1 side chains.",
+    "evidenceLevel": "established",
+    "source": "Annals of Allergy, Asthma & Immunology",
+    "explanations": {
+      "simple": "You reported a Cephalosporin allergy. This medication is a cephalosporin antibiotic and could trigger severe allergic reactions.",
+      "detailed": "Cephalosporin allergy involves antibodies directed against the bicyclic dihydrothiazine beta-lactam nucleus or specific R1/R2 side chains.",
+      "clinician": "Avoid in patients with documented cephalosporin anaphylaxis. Substitute with azithromycin or ciprofloxacin based on clinical susceptibility."
+    },
+    "precaution": "Do not take Cefixime. Consult your doctor for an alternative antibiotic family."
+  },
+  "opioid": {
+    "allergyName": "Opioid",
+    "affectedDrugs": ["tramadol"],
+    "severity": "major",
+    "mechanism": "Pseudoallergic non-immunologic mast cell degranulation or true IgE-mediated opioid hypersensitivity.",
+    "evidenceLevel": "moderate",
+    "source": "Mayo Clinic Proceedings",
+    "explanations": {
+      "simple": "You reported an opioid allergy or sensitivity. Tramadol works through opioid pathways and may cause flushing, hives, or severe reactions.",
+      "detailed": "Opioids can directly stimulate mast cell MRGPRX2 receptors causing non-IgE histamine release, or rarely true IgE anaphylaxis.",
+      "clinician": "Exercise caution. Evaluate if prior reaction was pseudoallergy (itching/flushing) or true anaphylaxis. Prefer non-opioid multimodal analgesia."
+    },
+    "precaution": "Avoid Tramadol. Use Paracetamol or safe non-opioid pain relievers."
+  },
+  "statin": {
+    "allergyName": "Statin",
+    "affectedDrugs": ["atorvastatin", "rosuvastatin"],
+    "severity": "moderate",
+    "mechanism": "Statin-associated muscle toxicity, immune-mediated necrotizing myopathy (anti-HMGCR antibodies), or hypersensitivity rash.",
+    "evidenceLevel": "moderate",
+    "source": "Circulation & National Lipid Association",
+    "explanations": {
+      "simple": "You reported a statin intolerance or allergy. This cholesterol-lowering medication belongs to the statin family.",
+      "detailed": "Statin intolerance involves severe myalgia, myopathy, or rare autoimmune anti-HMGCR myopathy. Cross-reactivity between lipophilic (atorvastatin) and hydrophilic (rosuvastatin) statins is variable.",
+      "clinician": "Evaluate symptoms. If mild myalgia, consider low-dose alternate-day rosuvastatin or non-statin lipid lowering therapies (ezetimibe, PCSK9 inhibitors)."
+    },
+    "precaution": "Discuss alternative cholesterol medications with your cardiologist."
+  },
+  "ciprofloxacin": {
+    "allergyName": "Fluoroquinolone / Ciprofloxacin",
+    "affectedDrugs": ["ciprofloxacin"],
+    "severity": "major",
+    "mechanism": "IgE-mediated hypersensitivity or MRGPRX2 receptor-mediated direct mast cell activation.",
+    "evidenceLevel": "established",
+    "source": "Journal of Allergy and Clinical Immunology",
+    "explanations": {
+      "simple": "You reported an allergy to Ciprofloxacin or fluoroquinolones. Taking this can cause serious allergic reactions.",
+      "detailed": "Fluoroquinolones exhibit class-wide cross-reactivity for both IgE-mediated anaphylaxis and direct mast cell degranulation.",
+      "clinician": "Contraindicated. Avoid all fluoroquinolones. Select alternative antimicrobial class."
+    },
+    "precaution": "Do not take Ciprofloxacin. Consult your doctor for an alternate antibiotic."
+  }
+}

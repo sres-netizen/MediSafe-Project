@@ -1,0 +1,212 @@
+{
+  "warfarin": {
+    "drugName": "Warfarin",
+    "category": "X",
+    "severity": "major",
+    "mechanism": "Warfarin crosses the placental barrier, inhibiting vitamin K epoxide reductase in the developing fetus, leading to chondrodysplasia punctata, nasal hypoplasia, microcephaly, and fetal hemorrhage.",
+    "evidenceLevel": "established",
+    "source": "ACOG Committee Opinion & FDA Black Box",
+    "explanations": {
+      "simple": "Warfarin is strictly unsafe in pregnancy. It crosses into the baby and causes severe birth defects, facial deformities, and internal bleeding.",
+      "detailed": "Fetal Warfarin Syndrome occurs primarily with 1st trimester exposure (weeks 6-9), characterized by stippled epiphyses, hypoplastic nose, optic atrophy, and mental retardation. 2nd/3rd trimester exposure risks fatal fetal intracranial bleeding.",
+      "clinician": "Absolute contraindication throughout pregnancy. Substitute immediately with subcutaneous Low-Molecular-Weight Heparin (LMWH, e.g. Enoxaparin), which does not cross the placenta."
+    },
+    "precaution": "Never take Warfarin while pregnant or planning to become pregnant. Switch immediately to a pregnancy-safe blood thinner like Enoxaparin under specialist supervision."
+  },
+  "methotrexate": {
+    "drugName": "Methotrexate",
+    "category": "X",
+    "severity": "major",
+    "mechanism": "Dihydrofolate reductase inhibition starves rapidly dividing embryonic cells of thymidylate and purines, causing miscarriage and fetal aminopterin syndrome.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning & Teratology Society",
+    "explanations": {
+      "simple": "Methotrexate is an absolute danger in pregnancy. It stops cells from dividing, causing miscarriage or severe developmental deformities.",
+      "detailed": "Methotrexate-induced embryopathy includes craniosynostosis, hypertelorism, cleft palate, limb reduction defects, and intrauterine fetal demise. Must be stopped at least 3 months prior to conception in both partners.",
+      "clinician": "Contraindicated. Category X. Ensure negative pregnancy test before prescribing and enforce dual barrier contraception."
+    },
+    "precaution": "Do not take Methotrexate during pregnancy. If pregnancy occurs or is suspected, stop immediately and seek emergency medical guidance."
+  },
+  "telmisartan": {
+    "drugName": "Telmisartan",
+    "category": "D",
+    "severity": "major",
+    "mechanism": "Blockade of fetal AT1 receptors impairs fetal renal perfusion, causing renal dysgenesis, oligohydramnios, pulmonary hypoplasia, and neonatal anuria.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning on Drugs Acting on the RAAS",
+    "explanations": {
+      "simple": "Telmisartan damages the baby's kidneys, reducing the protective fluid around the baby and causing severe lung and skull defects.",
+      "detailed": "Renal angiotensin II is critical for normal fetal nephrogenesis and systemic blood pressure in the 2nd and 3rd trimesters. Oligohydramnios sequence leads to Potter's facies, limb contractures, and lethal pulmonary hypoplasia.",
+      "clinician": "Contraindicated in 2nd and 3rd trimesters; avoid in 1st trimester. Switch to pregnancy-safe antihypertensives (Labetalol, Nifedipine, or Methyldopa)."
+    },
+    "precaution": "Stop Telmisartan as soon as pregnancy is detected and switch to safe alternatives like Labetalol."
+  },
+  "losartan": {
+    "drugName": "Losartan",
+    "category": "D",
+    "severity": "major",
+    "mechanism": "Fetal renin-angiotensin system blockade leads to oligohydramnios, neonatal renal failure, and cranial ossification defects.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning",
+    "explanations": {
+      "simple": "Losartan causes serious harm to the unborn baby's kidneys and bones, and lowers amniotic fluid.",
+      "detailed": "ARBs impair fetal renal tubular function, leading to oligohydramnios sequence and fetal death.",
+      "clinician": "Discontinue immediately upon pregnancy diagnosis. Transition to Labetalol or Nifedipine."
+    },
+    "precaution": "Discontinue immediately and consult your obstetrician for pregnancy-safe blood pressure options."
+  },
+  "ramipril": {
+    "drugName": "Ramipril",
+    "category": "D",
+    "severity": "major",
+    "mechanism": "Inhibition of fetal angiotensin converting enzyme leads to fetal hypotension, oligohydramnios, renal tubular dysgenesis, and skull hypoplasia.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning",
+    "explanations": {
+      "simple": "Ramipril is dangerous during pregnancy. It impairs the baby's kidney development and causes poor skull bone formation.",
+      "detailed": "Fetotoxic class effect of all ACE inhibitors. Causes renal failure and limb/skull deformities in mid-to-late gestation.",
+      "clinician": "Contraindicated. Discontinue immediately. Substitute Labetalol or Methyldopa."
+    },
+    "precaution": "Do not take Ramipril while pregnant. Contact your doctor immediately for safe blood pressure alternatives."
+  },
+  "atorvastatin": {
+    "drugName": "Atorvastatin",
+    "category": "X",
+    "severity": "major",
+    "mechanism": "Cholesterol and downstream isoprenoids are essential for fetal membrane synthesis, sterol production, and Sonic Hedgehog signaling during embryogenesis.",
+    "evidenceLevel": "established",
+    "source": "FDA Safety Alerts & ACOG Guidelines",
+    "explanations": {
+      "simple": "Atorvastatin stops cholesterol production, which is essential for the baby's brain and organ development.",
+      "detailed": "Disrupts developmental cholesterol biosynthesis, predisposing to VACTERL-like congenital anomalies and CNS developmental arrest.",
+      "clinician": "Contraindicated throughout pregnancy and breastfeeding. Statins should be discontinued 1-2 months prior to attempting conception."
+    },
+    "precaution": "Stop Atorvastatin immediately if you become pregnant."
+  },
+  "rosuvastatin": {
+    "drugName": "Rosuvastatin",
+    "category": "X",
+    "severity": "major",
+    "mechanism": "Interference with essential fetal sterol synthesis during organogenesis.",
+    "evidenceLevel": "established",
+    "source": "FDA Drug Labeling",
+    "explanations": {
+      "simple": "Rosuvastatin blocks cholesterol formation that the baby needs to grow healthy organs and brain tissue.",
+      "detailed": "HMG-CoA reductase inhibitors carry fetal risk with no acute benefit from short-term lipid lowering during gestation.",
+      "clinician": "Contraindicated. Pause statin therapy for the duration of pregnancy and lactation."
+    },
+    "precaution": "Discontinue Rosuvastatin during pregnancy and nursing."
+  },
+  "ibuprofen": {
+    "drugName": "Ibuprofen",
+    "category": "D",
+    "severity": "major",
+    "mechanism": "COX inhibition suppresses prostaglandin E2 synthesis, causing premature constriction/closure of the fetal ductus arteriosus and fetal renal dysfunction (oligohydramnios).",
+    "evidenceLevel": "established",
+    "source": "FDA Drug Safety Communication (NSAIDs in Pregnancy)",
+    "explanations": {
+      "simple": "Ibuprofen is dangerous in pregnancy (especially after 20 weeks). It can close a major heart vessel in the baby too early and cause low amniotic fluid.",
+      "detailed": "Prostaglandin E2 maintains patency of the fetal ductus arteriosus. NSAID use at >= 20 weeks gestation causes oligohydramnios and premature ductus arteriosus constriction, resulting in persistent pulmonary hypertension of the newborn (PPHN).",
+      "clinician": "Avoid NSAIDs beyond 20 weeks gestation; strictly contraindicated in the 3rd trimester. Paracetamol is the first-line antipyretic and analgesic of choice in all trimesters."
+    },
+    "precaution": "Avoid Ibuprofen while pregnant. Use Paracetamol for pain or fever relief."
+  },
+  "aspirin": {
+    "drugName": "Aspirin",
+    "category": "D",
+    "severity": "major",
+    "mechanism": "High analgesic doses cause premature ductus arteriosus closure, prolonged labor, and maternal/fetal hemorrhage.",
+    "evidenceLevel": "established",
+    "source": "ACOG Practice Bulletin",
+    "explanations": {
+      "simple": "High doses of Aspirin can cause heart complications in the unborn baby and cause severe bleeding during labor. (Note: very low-dose baby aspirin may be prescribed by OB-GYNs for preeclampsia).",
+      "detailed": "Full-dose aspirin (>100mg) inhibits fetal prostacyclin, risking premature ductus arteriosus closure and hemorrhagic diathesis. Low-dose aspirin (81-150mg) is safely used under specialist protocol to prevent preeclampsia in high-risk women.",
+      "clinician": "Avoid high-dose analgesic aspirin. Low-dose prophylactic aspirin (81mg) initiated between 12-16 weeks is standard for preeclampsia prophylaxis under obstetric guidance."
+    },
+    "precaution": "Do not take regular strength Aspirin while pregnant. Only take low-dose aspirin if specifically prescribed by your obstetrician."
+  },
+  "diclofenac": {
+    "drugName": "Diclofenac",
+    "category": "D",
+    "severity": "major",
+    "mechanism": "COX inhibition closes the fetal ductus arteriosus and suppresses fetal urine production, causing oligohydramnios.",
+    "evidenceLevel": "established",
+    "source": "FDA Safety Alerts",
+    "explanations": {
+      "simple": "Diclofenac should not be used in pregnancy as it can harm the baby's circulation and kidneys.",
+      "detailed": "Induces premature closure of fetal ductus arteriosus and impairment of fetal renal function.",
+      "clinician": "Avoid NSAIDs, especially in the 2nd and 3rd trimesters. Switch to paracetamol."
+    },
+    "precaution": "Do not take Diclofenac during pregnancy. Use Paracetamol instead."
+  },
+  "alprazolam": {
+    "drugName": "Alprazolam",
+    "category": "D",
+    "severity": "major",
+    "mechanism": "Benzodiazepines cross the placenta and accumulate in fetal tissues, causing neonatal withdrawal, hypotonia ('floppy infant syndrome'), and potential oral clefting.",
+    "evidenceLevel": "established",
+    "source": "ACOG & APA Guidelines",
+    "explanations": {
+      "simple": "Alprazolam crosses into the baby and can cause birth defects, weak muscle tone, and severe withdrawal symptoms after birth.",
+      "detailed": "Increases risks of congenital malformations (microcephaly, cleft palate) with 1st trimester exposure; causes respiratory depression and withdrawal tremors in the neonate if taken near term.",
+      "clinician": "Avoid during pregnancy. Conduct a gradual taper under psychiatric guidance; explore non-pharmacologic CBT or pregnancy-compatible SSRIs."
+    },
+    "precaution": "Do not stop suddenly on your own. Speak with your psychiatrist and obstetrician immediately to safely taper off Alprazolam."
+  },
+  "clonazepam": {
+    "drugName": "Clonazepam",
+    "category": "D",
+    "severity": "major",
+    "mechanism": "Placental transfer leads to fetal drug accumulation, neonatal hypothermia, respiratory depression, and withdrawal.",
+    "evidenceLevel": "established",
+    "source": "Journal of Clinical Psychiatry",
+    "explanations": {
+      "simple": "Clonazepam can cause floppy baby syndrome, poor breathing, and withdrawal symptoms in newborns.",
+      "detailed": "Associated with neonatal flaccidity, feeding difficulties, and neonatal abstinence syndrome. Potential teratogenic risk in early gestation.",
+      "clinician": "Re-evaluate indication. If managing epilepsy, maintain lowest effective monotherapy with high-dose folate; if for anxiety, transition to safer modalities."
+    },
+    "precaution": "Consult your doctor for safer alternatives during pregnancy."
+  },
+  "ciprofloxacin": {
+    "drugName": "Ciprofloxacin",
+    "category": "C",
+    "severity": "major",
+    "mechanism": "High affinity for developing cartilage and bones leads to permanent arthropathy and joint lesions in animal studies.",
+    "evidenceLevel": "established",
+    "source": "Pediatrics & Teratology Journals",
+    "explanations": {
+      "simple": "Ciprofloxacin can damage the cartilage in the unborn baby's developing joints.",
+      "detailed": "Fluoroquinolones cause articular cartilage erosion and growth plate lesions in juvenile animal models. Generally reserved for life-threatening maternal infections lacking alternatives.",
+      "clinician": "Avoid fluoroquinolones in pregnancy. Beta-lactams (cephalosporins, amoxicillin) or macrolides are preferred first-line antimicrobials."
+    },
+    "precaution": "Avoid Ciprofloxacin in pregnancy. Ask for pregnancy-safe antibiotics like Amoxicillin or Cefixime."
+  },
+  "doxycycline": {
+    "drugName": "Doxycycline",
+    "category": "D",
+    "severity": "major",
+    "mechanism": "Tetracyclines chelate calcium orthophosphate in developing teeth and bones, causing permanent brown discoloration, enamel hypoplasia, and stunted bone growth.",
+    "evidenceLevel": "established",
+    "source": "FDA Boxed Warning & American Academy of Pediatrics",
+    "explanations": {
+      "simple": "Doxycycline permanently discolors the baby's baby and adult teeth yellow-brown and can slow down bone growth.",
+      "detailed": "Binds irreversibly to hydroxyapatite during odontogenesis and osteogenesis from the 16th week of gestation through early childhood.",
+      "clinician": "Contraindicated from 16 weeks gestation onwards. Substitute with Azithromycin or Amoxicillin."
+    },
+    "precaution": "Never take Doxycycline during pregnancy. Use a safe antibiotic alternative."
+  },
+  "glimepiride": {
+    "drugName": "Glimepiride",
+    "category": "C",
+    "severity": "moderate",
+    "mechanism": "Transplacental passage stimulates fetal pancreatic beta cells, causing severe and prolonged neonatal hypoglycemia.",
+    "evidenceLevel": "established",
+    "source": "ADA Guidelines on Diabetes in Pregnancy",
+    "explanations": {
+      "simple": "Glimepiride reaches the baby's pancreas, forcing it to release too much insulin and causing dangerously low blood sugar at birth.",
+      "detailed": "Crosses the placenta and can trigger refractory neonatal hypoglycemia lasting 4-10 days postpartum.",
+      "clinician": "Discontinue. Insulin is the gold-standard therapy for glycemic management throughout pregnancy."
+    },
+    "precaution": "Switch from Glimepiride to Insulin therapy under the care of your endocrinologist and obstetrician."
+  }
+}
