@@ -1,203 +1,167 @@
-# MediSafe: Explainable Personalized Medication Safety Advisor
+# MediSafe
 
-MediSafe is a software-only Clinical Decision Support System (CDSS) prototype focused on:
-- Drug-drug interaction analysis
-- Drug-condition interaction analysis
-- Personalized patient risk assessment
-- Medication safety scoring
-- Explainable, patient-friendly clinical recommendations
+**Explainable Personalized Medication Safety Advisor for Drug Interaction and Patient Risk Analysis**
 
-This prototype is built to support **Software Engineering Experiment 9: Design and Demonstration of Test Cases**, specifically enabling:
-1. **Functional Testing** using Selenium IDE.
-2. **Load & Performance Testing** using Apache JMeter.
+MediSafe is a patient-centred web app that checks your medicines, foods, drinks and supplements for risky combinations, then gives you a **personalized safety score** with a fully traceable breakdown and plain-language explanations.
+
+🔗 **Live demo:** [https://medisafe-advisor.vercel.app/]
+
+> ⚠️ **Disclaimer:** MediSafe is an educational decision-support tool built as a college project. It does **not** replace advice from a doctor or pharmacist. Its dataset is small and not clinical grade.
 
 ---
 
-## 🛠️ Technology Stack
+## Problem Statement
 
-- **Frontend:** React, Vite, JavaScript, CSS3
-- **Backend:** Node.js, Express (REST API)
-- **Authentication:** Demo session handler (No external auth service required)
-- **Database:** In-memory deterministic state (No external database required)
+Existing drug interaction checkers (Drugs.com, Medscape, WebMD and similar) are mostly pair-lookup tools: they take a list of drugs and show generic "Drug A + Drug B" warnings. In practice this leaves several gaps:
 
----
+- They barely adapt to the person: allergies, existing conditions, age and pregnancy are separate, limited or paywalled.
+- They give one generic explanation, often written for clinicians.
+- They give no overall number, so a mix of many warnings is hard to prioritise.
+- They often imply false safety when a drug or pair simply isn't in their data.
+- They are US/UK-centric and handle Indian brand names poorly.
 
-## 🔑 Demo Credentials
+## What Makes MediSafe Different
 
-- **Username:** `doctor`
-- **Password:** `medisafe123`
+| # | Feature | Why it matters |
+|---|---|---|
+| 1 | **Personalized analysis** | Allergies, conditions, age and pregnancy are part of the analysis, so the same medicine list gives different results for different people. |
+| 2 | **Explainable safety score (0-100)** | Every point deducted is listed with its cause and severity. Nothing is a black box. |
+| 3 | **Three explanation depths** | A Simple / Detailed / Clinician slider rewrites every explanation for the reader. |
+| 4 | **Indian brand recognition** | Typing "Dolo 650", "Brufen" or "Augmentin" resolves to the generic drug before analysis. |
+| 5 | **Food, alcohol & supplement interactions** | Covers grapefruit, alcohol, St John's Wort, calcium and more, which are commonly forgotten. |
+| 6 | **"No data is not safe" indicator** | Unknown drugs and unchecked pairs are shown as *not enough data*. The app never claims "no interactions found". |
+| 7 | **What-if simulator + safer alternatives** | Remove or swap a medicine and watch the score update live (e.g. 62 → 81). Alternatives come from the same drug class and respect the user's allergies, conditions and pregnancy. |
+| 8 | **Cumulative (stacked) risk detection** | Catches risks that individual pairs miss, such as multiple NSAIDs, blood thinners, sedatives or serotonergic drugs taken together. |
+| 9 | **Mechanism-based (CYP enzyme) prediction** | If drug A blocks or speeds up a liver enzyme that clears drug B, the engine flags a *predicted* interaction even when no pair rule exists, and shows the reasoning chain. |
 
----
+## How the Score Works
 
-## 🚀 Quick Start Instructions
+The engine is **rule-based and deterministic**. There is no black-box ML model, no external API calls, and it works fully offline. Every number shown can be traced to a rule.
 
-### Prerequisites
-Make sure **Node.js** (v18 or higher) is installed on your system.
+The score starts at **100** and points are deducted per finding:
 
-### 1. Install Dependencies
+| Finding | Deduction |
+|---|---|
+| Major drug-drug interaction | -25 |
+| Moderate drug-drug interaction | -10 |
+| Minor drug-drug interaction | -3 |
+| Drug-allergy match | -30 |
+| Drug-disease conflict | -15 to -20 |
+| Pregnancy-risk drug | -30 |
+| Food / alcohol / supplement interaction | -3 to -10 |
+| Cumulative (stacked) risk | -8 to -15 |
+| Predicted CYP interaction | about -5 |
 
-Open two terminal windows or command prompts:
+Stacked and predicted deductions are **capped at 25 points combined**, and a pair with an explicit rule is never double-counted as a predicted interaction.
 
-**Backend:**
+| Score | Risk level |
+|---|---|
+| 80-100 | 🟢 Safe |
+| 50-79 | 🟡 Moderate |
+| Below 50 | 🔴 High risk |
+
+Each finding also carries an **evidence level** (established / moderate / theoretical) so users can see how strong the underlying evidence is.
+
+## Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS, Recharts
+- **Analysis engine:** JavaScript, written as a pure function separate from the UI
+- **Data:** JSON seed files (drugs, Indian brands, interactions, drug-disease, drug-allergy, pregnancy, food, stacking rules)
+- **Hosting:** Vercel, with the code on GitHub
+
+## Getting Started
+
+**Prerequisites:** Node.js 18+ and npm.
+
 ```bash
-cd backend
+# 1. Clone the repository
+git clone https://github.com/YOUR-USERNAME/medisafe.git
+cd medisafe
+
+# 2. Install dependencies
 npm install
-```
 
-**Frontend:**
-```bash
-cd frontend
-npm install
-```
-
----
-
-### 2. Start the Backend Server
-
-```bash
-cd backend
-npm start
-```
-*The backend API will run locally at `http://localhost:5000`.*
-
----
-
-### 3. Start the Frontend Development Application
-
-```bash
-cd frontend
+# 3. Start the development server
 npm run dev
 ```
-*The React application will run locally at `http://localhost:5173`.*
 
-Open `http://localhost:5173` in your web browser.
+Then open the local URL shown in the terminal (usually `http://localhost:5173`).
 
----
+To create a production build:
 
-## 📡 Backend API Endpoints
+```bash
+npm run build
+```
 
-| Endpoint | Method | Purpose | Sample Input / Notes |
-| :--- | :--- | :--- | :--- |
-| `/api/health` | `GET` | Server Health & JMeter Load Target | Returns `200 OK` with timestamp |
-| `/api/login` | `POST` | User Authentication | Body: `{ "username": "doctor", "password": "medisafe123" }` |
-| `/api/analyze` | `POST` | Medication Risk Assessment | Body: `{ "patientName": "John", "age": 54, "disease": "Hypertension", "allergy": "None", "medicationName": "Warfarin", "dosage": "5mg" }` |
+## Try It Out
 
----
+Some quick cases to see what MediSafe does:
 
-## ⚙️ Deterministic Prototype Safety Analysis Rules
+1. **Bleeding risk:** add Warfarin + Aspirin + Ibuprofen. You'll see a major interaction and a stacked-risk finding.
+2. **Indian brands:** add "Dolo 650" and "Brufen" and watch them resolve to Paracetamol and Ibuprofen.
+3. **Allergy:** set a penicillin allergy and add Amoxicillin.
+4. **Pregnancy:** mark the profile as pregnant and add a pregnancy-risk drug.
+5. **What-if:** on the results page, remove a medicine and watch the score change.
+6. **Honesty check:** add a drug that isn't in the database and see the *not enough data* section.
 
-To ensure reliable and reproducible Selenium testing, the prototype evaluates inputs using deterministic clinical rules:
+## Project Structure
 
-1. **Rule 1 (Moderate Risk - Score 60):**
-   - **Trigger:** `Medication = Warfarin` AND `Disease = Hypertension`
-   - **Finding:** *"Potential medication-related risk detected. Review the patient's condition and medication combination."*
-   - **Recommendation:** *"Consult a healthcare professional before continuing or modifying the medication."*
+```
+medisafe/
+├── src/                  # React UI (profile, medicine entry, results, what-if)
+├── engine/               # Pure analysis engine (scoring, rules, CYP + stacked risk)
+├── data/                 # JSON seed data
+│   ├── drugs.json
+│   ├── brands.json
+│   ├── interactions.json
+│   ├── drugDisease.json
+│   ├── drugAllergy.json
+│   ├── pregnancy.json
+│   ├── food.json
+│   └── stackRules.json
+├── docs/                 # SRS, UML diagrams, test cases
+└── README.md
+```
 
-2. **Rule 2 (High Risk - Score 30):**
-   - **Trigger:** `Medication = Aspirin` AND `Allergy = Aspirin`
-   - **Finding:** *"Potential allergy-related medication risk detected."*
-   - **Recommendation:** *"Avoid use and consult a healthcare professional."*
+## Testing
 
-3. **Rule 3 (Low Risk - Score 90):**
-   - **Trigger:** Any other combination (e.g., Metformin, Amoxicillin, Ibuprofen without triggers).
-   - **Finding:** *"No significant interaction detected in this prototype analysis."*
-   - **Recommendation:** *"Continue according to the prescribed instructions and consult a healthcare professional if concerns arise."*
+Functional testing of the frontend is done with **Cypress**, covering brand-name resolution, interaction detection, allergy and pregnancy warnings, input validation, the explanation slider, the what-if simulator and score colour thresholds. Test cases are documented in `docs/test-cases.md`.
 
----
+```bash
+npx cypress open
+```
 
-## 🧪 Selenium IDE Functional Testing Guide
+## Limitations
 
-All key interactive components have dedicated, stable `id` and `data-testid` attributes.
+- The dataset is a **small, hand-curated demo set**, not a clinical-grade database.
+- CYP-based predictions are theoretical and flagged as such.
+- Results are guidance only. Always consult a doctor or pharmacist.
 
-### Target DOM Element Identifiers
+## Future Enhancements
 
-| Component | Element | Target ID (`id` / `data-testid`) |
-| :--- | :--- | :--- |
-| **Login** | Username Input | `username` |
-| **Login** | Password Input | `password` |
-| **Login** | Submit Button | `login-button` |
-| **Login** | Error Message Box | `login-error` |
-| **Patient Form** | Patient Name Input | `patient-name` |
-| **Patient Form** | Age Input | `patient-age` |
-| **Patient Form** | Gender Select | `patient-gender` |
-| **Patient Form** | Disease Input | `patient-disease` |
-| **Patient Form** | Allergy Input | `patient-allergy` |
-| **Medication Form** | Medication Select | `medication-name` |
-| **Medication Form** | Dosage Input | `dosage` |
-| **Medication Form** | Analyze Button | `analyze-button` |
-| **Results** | Analysis Card Container | `analysis-result` |
-| **Results** | Risk Level Display | `risk-level` |
-| **Results** | Safety Score Badge | `safety-score` |
-| **Results** | Risk Finding Text | `risk-message` |
-| **Results** | Recommendation Text | `recommendation` |
-| **Results** | Analyze Again Button | `analyze-again-button` |
-| **Navigation** | Logout Button | `logout-button` |
+- Interaction network graph and body-system load map
+- Daily medication schedule optimizer
+- Symptom-to-medicine side-effect checker
+- Downloadable PDF safety report and "questions for your doctor" generator
+- One-click demo scenarios
+- User accounts and cloud-saved history
+- Integration with a licensed drug database (DrugBank, openFDA)
+- ML-based prediction for interactions not covered by rules
+- Electronic Health Record (EHR) integration and multilingual support
 
----
+## Software Engineering Practices
 
-### Test Cases Summary (TC01 – TC09)
+- **Version control:** Git and GitHub (branching, pull requests, issues)
+- **Project management:** Jira (Scrum board, sprints, backlog)
+- **Testing:** Cypress for frontend functional testing
+- **Modelling:** Use case, class, ER, DFD, state, sequence, package, component and deployment diagrams (see `docs/`)
 
-- **TC01 – Verify MediSafe login page loads:** Assert element `id=username` and `id=login-button` present.
-- **TC02 – Login with valid credentials:** Type `doctor` in `id=username`, `medisafe123` in `id=password`, click `id=login-button`. Assert `id=patient-name` present.
-- **TC03 – Login with invalid credentials:** Type `wronguser` in `id=username`, `wrongpass` in `id=password`, click `id=login-button`. Assert `id=login-error` contains *"Invalid username or password."*
-- **TC04 – Enter patient information:** Type name into `id=patient-name`, age into `id=patient-age`, disease into `id=patient-disease`, allergy into `id=patient-allergy`.
-- **TC05 – Enter medication information:** Select medication in `id=medication-name`, type dosage into `id=dosage`.
-- **TC06 – Analyze medication safety:** Click `id=analyze-button`. Assert `id=analysis-result` renders.
-- **TC07 – Verify Risk Level & Safety Score:** Assert `id=risk-level` text matches expected risk (`Moderate Risk`, `High Risk`, or `Low Risk`) and `id=safety-score` matches score (`60`, `30`, or `90`).
-- **TC08 – Verify recommendation is displayed:** Assert text in `id=recommendation` is populated.
-- **TC09 – Logout:** Click `id=logout-button`. Assert redirect to login page with `id=login-button` visible.
+## Author
 
----
+**Sreyas Sanil** (24BAI1413)
+VIT Chennai
+Software Engineering Lab Project
 
-## 📊 Apache JMeter Performance Testing Guide
+## License
 
-The API is structured for high-performance load testing.
-
-### Target Endpoints for JMeter
-
-1. **Lightweight Health Check Endpoint:**
-   - **URL:** `http://localhost:5000/api/health`
-   - **HTTP Method:** `GET`
-   - **Purpose:** Baseline latency and request throughput without payload overhead.
-
-2. **Medication Analysis Endpoint:**
-   - **URL:** `http://localhost:5000/api/analyze`
-   - **HTTP Method:** `POST`
-   - **Header:** `Content-Type: application/json`
-   - **Body (JSON):**
-     ```json
-     {
-       "patientName": "JMeter Test User",
-       "age": "45",
-       "gender": "Male",
-       "disease": "Hypertension",
-       "allergy": "None",
-       "medicationName": "Warfarin",
-       "dosage": "5mg"
-     }
-     ```
-
-### Sample JMeter Test Plan Setup
-
-1. Add a **Thread Group**:
-   - *Number of Threads (Users):* `50` or `100`
-   - *Ramp-Up Period (seconds):* `5`
-   - *Loop Count:* `10` (or Infinite for 60 seconds)
-2. Add an **HTTP Request Sampler**:
-   - *Server Name:* `localhost`
-   - *Port:* `5000`
-   - *Method:* `POST`
-   - *Path:* `/api/analyze`
-3. Add an **HTTP Header Manager**:
-   - `Content-Type`: `application/json`
-4. Add Listener Reports:
-   - **Aggregate Report** (Measures Average Response Time, Median, 95th Percentile, Throughput requests/sec, Error %)
-   - **Summary Report**
-   - **View Results Tree**
-
----
-
-## ⚠️ Academic & Educational Disclaimer
-
-**Prototype / Educational Demonstration — Not for real medical decisions.**
-This application is designed solely as an academic software engineering prototype for test case demonstration. It does not replace real clinical decision-making or professional medical advice.
+This project is for educational purposes.
